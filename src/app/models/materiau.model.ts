@@ -1,7 +1,7 @@
 export interface MateriauModel {
   identifiant: number;
   nom: string;
-  multiplicateur: string;
+  multiplicateur: number;
   rang: number;
   acquisition: string;
   prixAchat: number;

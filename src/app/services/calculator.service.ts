@@ -77,7 +77,7 @@ export class CalculatorService {
   }
 
   // Retourne le matériau qui atteint le total d'XP avec le moins d'exemplaires et son coût
-  calculateMateriauOptimal(
+  calculerMateriauOptimal(
     xpTotal: number,
     materiaux: MateriauModel[],
     rang: number

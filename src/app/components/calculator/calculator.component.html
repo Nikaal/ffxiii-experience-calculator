@@ -1,2 +1,112 @@
-<h2>Calculateur XP FFXIII</h2>
-<p>XP nécessaire pour monter l'arme : {{ resultat }}</p>
+<div class="container">
+
+<h1>FFXIII Calculateur d'expérience</h1>
+
+<div class="card">
+
+<h2>Type</h2>
+
+<label>
+<input type="radio"
+       [(ngModel)]="typeSelection"
+       value="arme">
+Arme
+</label>
+
+<label>
+<input type="radio"
+       [(ngModel)]="typeSelection"
+       value="accessoire">
+Accessoire
+</label>
+
+</div>
+
+<!-- SECTION ARME -->
+
+@if (typeSelection === 'arme') {
+
+<div class="card">
+
+@if (data$ | async; as data) {
+
+<label>Personnage</label>
+<select [(ngModel)]="personnageSelectionne" (change)="onPersonnageChange()">
+        <option [value]="undefined">-- choisir --</option>
+        @for (p of personnages; track p) {
+                <option [value]="p">{{p}}</option>
+        }
+</select>
+
+<label>Arme</label>
+<select [(ngModel)]="armeSelectionnee">
+        <option [ngValue]="undefined">-- choisir --</option>
+        @for (arme of armesParPersonnage[personnageSelectionne ?? ''] ?? []; track arme.identifiant) {
+                <option [ngValue]="arme">{{arme.nom}}</option>
+        }
+</select>
+
+<label>Niveau actuel</label>
+<input type="number" [(ngModel)]="niveauActuel">
+
+<label>Niveau cible (max : {{ armeSelectionnee?.niveauMax }})</label>
+<input type="number" [(ngModel)]="niveauCibleArme" min="1" placeholder="1 - {{ armeSelectionnee?.niveauMax }}">
+
+<button (click)="calculerArme()">Calculer</button>
+}
+</div>
+}
+
+<!-- SECTION ACCESSOIRE -->
+
+@if (typeSelection === 'accessoire') {
+
+<div class="card">
+@if (data$ | async; as data) {
+<label>Accessoire</label>
+
+<select [(ngModel)]="accessoireSelectionne">
+        <option [ngValue]="undefined">-- choisir --</option>
+        @for (accessoire of data.accessoires; track accessoire.identifiant) {
+                <option [ngValue]="accessoire">
+                        {{accessoire.nom}}
+                </option>
+        }
+</select>
+
+<label>Niveau actuel</label>
+<input type="number" [(ngModel)]="niveauActuel">
+
+<label>Niveau cible (max : {{ accessoireSelectionne?.niveauMax }})</label>
+<input type="number" [(ngModel)]="niveauCibleAccessoire" min="1" placeholder="1 - {{ accessoireSelectionne?.niveauMax }}">
+
+<button (click)="calculerAccessoire()">Calculer</button>
+}
+</div>
+}
+
+@if (resultat) {
+<div class="card result">
+
+<h2>Résultat</h2>
+
+<p>
+<b>XP nécessaire :</b> {{xpNecessaire}}
+</p>
+
+<p>
+<b>Matériau optimal :</b> {{resultat.nom}}
+</p>
+
+<p>
+<b>Nombre :</b> {{resultat.nombre}}
+</p>
+
+<p>
+<b>Coût total :</b> {{resultat.cout}}
+</p>
+
+</div>
+}
+
+</div>

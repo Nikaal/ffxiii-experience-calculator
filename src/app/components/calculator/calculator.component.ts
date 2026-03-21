@@ -1,48 +1,140 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 import { CalculatorService } from '../../services/calculator.service';
 import { ArmeModel } from '../../models/arme.model';
 import { MateriauModel } from '../../models/materiau.model';
+import { AccessoireModel } from '../../models/accessoire.model';
+import { DataService } from '../../services/data.service';
+import { Observable } from 'rxjs';
+import { map, shareReplay } from 'rxjs/operators';
 
 @Component({
   selector: 'app-calculator',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule, FormsModule],
   templateUrl: './calculator.component.html',
   styleUrl: './calculator.component.scss',
 })
-export class CalculatorComponent implements OnInit {
+export class CalculatorComponent {
 
-  resultat: number = 0;
+  typeSelection: 'arme' | 'accessoire' = 'arme';
 
-  constructor(private calculator: CalculatorService) { }
+  data$: Observable<{armes: ArmeModel[], materiaux: MateriauModel[], accessoires: AccessoireModel[]}>;
+  personnages: string[] = ["Lightning","Sazh","Snow", "Hope", "Vanille", "Fang"];
+  armesParPersonnage: { [personnage: string]: ArmeModel[] } = {};
+  armes: ArmeModel[] = [];
+  armesFiltrees: ArmeModel[] = [];
+  accessoires: AccessoireModel[] = [];
+  materiaux: MateriauModel[] = [];
 
-  ngOnInit(): void {
-    // Exemple simple pour tester
-    const arme: ArmeModel = {
-      identifiant: 1,
-      nom: "Pistolame Sanctum",
-      personnage: "Lightning",
-      rang: 3,
-      niveauMax: 26,
-      groupeCompetencesDerivees: "Défense physique",
-      prixAchat: 2000,
-      prixVente: 1000,
-      acquisition: "Boutique",
-      catalyste: "Pérovskite",
-      forceMin: 15,
-      forceMax: 115,
-      forceIncrement: 4,
-      magieMin: 15,
-      magieMax: 115,
-      magieIncrement: 4,
-      experienceBase: 300,
-      experienceIncrement: 57
-    };
+  personnageSelectionne?: string;
+  armeSelectionnee?: any;
+  accessoireSelectionne?: any;
 
-    const materiaux: MateriauModel[] = [
-      { identifiant:1, nom:"Griffe encrassée", multiplicateur:"+4", rang:1, acquisition:"Mob", prixAchat:0, prixVente:15, experienceRang:[8,7,6,5,4,4,3,2,1,1,1] }
-    ];
+  niveauActuel = 1;
+  xpNecessaire = 0;
 
-    this.resultat = this.calculator.calculerXpArme(arme, 1, 5);
+  private _niveauCibleArme: number = 1;
+  private _niveauCibleAcessoire: number = 1;
+
+  resultat: {
+    nom: string,
+    nombre: number,
+    cout: number
+  } | null = null;
+
+  get niveauCibleArme(): number {
+    return this._niveauCibleArme;
   }
 
+  set niveauCibleArme(value: number) {
+    if (this.armeSelectionnee) {
+      // clamp entre 1 et niveauMax
+      this._niveauCibleArme = Math.max(1, Math.min(value, this.armeSelectionnee.niveauMax));
+    } else {
+      this._niveauCibleArme = Math.max(1, value);
+    }
+  }
+
+  get niveauCibleAccessoire(): number {
+    return this._niveauCibleAcessoire;
+  }
+
+  set niveauCibleAccessoire(value: number) {
+    if (this.accessoireSelectionne) {
+      // clamp entre 1 et niveauMax
+      this._niveauCibleAcessoire = Math.max(1, Math.min(value, this.armeSelectionnee.niveauMax));
+    } else {
+      this._niveauCibleAcessoire = Math.max(1, value);
+    }
+  }
+
+  constructor(private calculator: CalculatorService, private dataService: DataService) {
+    // Charger les données XML
+    this.data$ = this.dataService.loadAll().pipe(shareReplay(1));
+
+    // Créer la Map armesParPersonnage
+    this.data$.subscribe(data => {
+      this.personnages.forEach(p => {
+        this.armesParPersonnage[p] = data.armes.filter(a => a.personnage === p);
+      });
+    });
+  }
+
+  
+
+onPersonnageChange() {
+  this.armeSelectionnee = undefined;
+}
+
+  calculerArme() {
+
+    if(!this.armeSelectionnee) return;
+
+    this.xpNecessaire = this.calculator.calculerXpTotal(
+      this.niveauActuel,
+      this.niveauCibleArme,
+      this.armeSelectionnee.experienceBase,
+      this.armeSelectionnee.experienceIncrement
+    );
+
+    const optimal = this.calculator.calculerMateriauOptimal(
+      this.xpNecessaire,
+      this.materiaux,
+      this.armeSelectionnee.rang
+    );
+
+    this.resultat = {
+      nom: optimal.materiau.nom,
+      nombre: optimal.nbExemplaires,
+      cout: optimal.coutTotal
+    };
+
+  }
+
+  calculerAccessoire() {
+
+    if(!this.accessoireSelectionne) return;
+
+    const xp = this.calculator.calculerXpTotal(
+      this.niveauActuel,
+      this.niveauCibleArme,
+      this.accessoireSelectionne.experienceBase,
+      this.accessoireSelectionne.experienceIncrement
+    );
+
+    const optimal = this.calculator.calculerMateriauOptimal(
+      this.xpNecessaire,
+      this.materiaux,
+      this.accessoireSelectionne.rang
+    );
+
+    this.resultat = {
+      nom: optimal.materiau.nom,
+      nombre: optimal.nbExemplaires,
+      cout: optimal.coutTotal
+    };
+  }
+  
 }

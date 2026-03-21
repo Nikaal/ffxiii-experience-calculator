@@ -14,103 +14,112 @@ export class DataService {
 
   // --- Armes ---
   loadArmes(): Observable<ArmeModel[]> {
-    return this.http.get('assets/data/armes.xml', { responseType: 'text' }).pipe(
-      map(xmlText => this.parseArmes(xmlText))
-    );
-  }
+  return this.http.get('assets/data/Armes.xml', { responseType: 'text' }).pipe(
+    map(xmlText => {
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
 
-   private parseArmes(xmlText: string): ArmeModel[] {
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(xmlText, 'text/xml');
-    const nodes = Array.from(xml.getElementsByTagName('Arme'));
+      // prendre le noeud parent <Armes>
+      const parent = xmlDoc.getElementsByTagName('Armes')[0];
+      if (!parent) return [];
 
-    return nodes.map(node => ({
-      identifiant: Number(this.getText(node, 'Identifiant')),
-      nom: this.getText(node, 'Nom'),
-      personnage: this.getText(node, 'Personnage'),
-      rang: Number(this.getText(node, 'Rang')),
-      niveauMax: Number(this.getText(node, 'NiveauMax')),
-      groupeCompetencesDerivees: this.getText(node, 'GroupeCompetencesDerivees'),
-      prixAchat: Number(this.getText(node, 'PrixAchat')),
-      prixVente: Number(this.getText(node, 'PrixVente')),
-      acquisition: this.getText(node, 'Acquisition'),
-      catalyste: this.getText(node, 'Catalyste'),
-      forceMin: Number(this.getText(node, 'ForceMin')),
-      forceMax: Number(this.getText(node, 'ForceMax')),
-      forceIncrement: Number(this.getText(node, 'ForceIncrement')),
-      magieMin: Number(this.getText(node, 'MagieMin')),
-      magieMax: Number(this.getText(node, 'MagieMax')),
-      magieIncrement: Number(this.getText(node, 'MagieIncrement')),
-      experienceBase: Number(this.getText(node, 'ExperienceBase')),
-      experienceIncrement: Number(this.getText(node, 'ExperienceIncrement')),
-    }));
-  }
+      // récupérer tous les noeuds <Arme> à l'intérieur
+      const nodes = Array.from(parent.getElementsByTagName('Arme'));
+
+      return nodes.map(node => ({
+        identifiant: Number(node.getElementsByTagName('Identifiant')[0]?.textContent),
+        nom: node.getElementsByTagName('Nom')[0]?.textContent || '',
+        personnage: node.getElementsByTagName('Personnage')[0]?.textContent || '',
+        rang: Number(node.getElementsByTagName('Rang')[0]?.textContent),
+        niveauMax: Number(node.getElementsByTagName('NiveauMax')[0]?.textContent),
+        groupeCompetencesDerivees: node.getElementsByTagName('GroupeCompetencesDerivees')[0]?.textContent || '',
+        prixAchat: Number(node.getElementsByTagName('PrixAchat')[0]?.textContent),
+        prixVente: Number(node.getElementsByTagName('PrixVente')[0]?.textContent),
+        acquisition: node.getElementsByTagName('Acquisition')[0]?.textContent || '',
+        catalyste: node.getElementsByTagName('Catalyste')[0]?.textContent || '',
+        forceMin: Number(node.getElementsByTagName('ForceMin')[0]?.textContent),
+        forceMax: Number(node.getElementsByTagName('ForceMax')[0]?.textContent),
+        forceIncrement: Number(node.getElementsByTagName('ForceIncrement')[0]?.textContent),
+        magieMin: Number(node.getElementsByTagName('MagieMin')[0]?.textContent),
+        magieMax: Number(node.getElementsByTagName('MagieMax')[0]?.textContent),
+        magieIncrement: Number(node.getElementsByTagName('MagieIncrement')[0]?.textContent),
+        experienceBase: Number(node.getElementsByTagName('ExperienceBase')[0]?.textContent),
+        experienceIncrement: Number(node.getElementsByTagName('ExperienceIncrement')[0]?.textContent)
+      }));
+    })
+  );
+}
 
   // --- Accessoires ---
   loadAccessoires(): Observable<AccessoireModel[]> {
-    return this.http.get('assets/data/accessoires.xml', { responseType: 'text' })
-      .pipe(map(xml => this.parseAccessoires(xml)));
-  }
+    return this.http.get('assets/data/Accessoires.xml', { responseType: 'text' }).pipe(
+      map(xmlText => {
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
+        
+        // prendre le noeud parent <Accessoires>
+        const parent = xmlDoc.getElementsByTagName('Accessoires')[0];
+        if (!parent) return [];
+        
+        // récupérer tous les noeuds <Accessoire> à l'intérieur
+        const nodes = Array.from(parent.getElementsByTagName('Accessoire'));
 
-   private parseAccessoires(xmlText: string): AccessoireModel[] {
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(xmlText, 'text/xml');
-    const nodes = Array.from(xml.getElementsByTagName('Accessoire'));
-
-    return nodes.map(node => ({
-      identifiant: Number(this.getText(node, 'Identifiant')),
-      nom: this.getText(node, 'Nom'),
-      rang: Number(this.getText(node, 'Rang')),
-      niveauMax: Number(this.getText(node, 'NiveauMax')),
-      proprieteSpeciale: this.getText(node, 'ProprieteSpeciale'),
-      groupeCompetencesDerivees: this.getText(node, 'GroupeCompetencesDerivees'),
-      prixAchat: Number(this.getText(node, 'PrixAchat')),
-      prixVente: Number(this.getText(node, 'PrixVente')),
-      acquisition: this.getText(node, 'Acquisition'),
-      catalyste: this.getText(node, 'Catalyste'),
-      min: Number(this.getText(node, 'Min')),
-      max: Number(this.getText(node, 'Max')),
-      increment: Number(this.getText(node, 'Increment')),
-      experienceBase: Number(this.getText(node, 'ExperienceBase')),
-      experienceIncrement: Number(this.getText(node, 'ExperienceIncrement'))
-    }));
-  }
+        return nodes.map(node => ({
+          identifiant: Number(node.getElementsByTagName('Identifiant')[0]?.textContent),
+          nom: node.getElementsByTagName('Nom')[0]?.textContent || '',
+          rang: Number(node.getElementsByTagName('Rang')[0]?.textContent),
+          niveauMax: Number(node.getElementsByTagName('NiveauMax')[0]?.textContent),
+          proprieteSpeciale: node.getElementsByTagName('ProprieteSpeciale')[0]?.textContent || '',
+          groupeCompetencesDerivees: node.getElementsByTagName('GroupeCompetencesDerivees')[0]?.textContent || '',
+          prixAchat: Number(node.getElementsByTagName('PrixAchat')[0]?.textContent),
+          prixVente: Number(node.getElementsByTagName('PrixVente')[0]?.textContent),
+          acquisition: node.getElementsByTagName('Acquisition')[0]?.textContent || '',
+          catalyste: node.getElementsByTagName('Catalyste')[0]?.textContent || '',
+          min: Number(node.getElementsByTagName('Min')[0]?.textContent),
+          max: Number(node.getElementsByTagName('Max')[0]?.textContent),
+          increment: Number(node.getElementsByTagName('Increment')[0]?.textContent),
+          experienceBase: Number(node.getElementsByTagName('ExperienceBase')[0]?.textContent),
+          experienceIncrement: Number(node.getElementsByTagName('ExperienceIncrement')[0]?.textContent),
+        }));
+      })
+    );
+  }  
 
   // --- Materiaux ---
- loadMateriaux(): Observable<MateriauModel[]> {
-    return this.http.get('assets/data/materiaux.xml', { responseType: 'text' })
-      .pipe(map(xml => this.parseMateriaux(xml)));
+  loadMateriaux(): Observable<MateriauModel[]> {
+    return this.http.get('assets/data/Materiaux.xml', { responseType: 'text' }).pipe(
+      map(xmlText => {
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
+        
+        // prendre le noeud parent <Materiaux>
+        const parent = xmlDoc.getElementsByTagName('Materiaux')[0];
+        if (!parent) return [];
+        
+        // récupérer tous les noeuds <Materiau> à l'intérieur
+        const nodes = Array.from(parent.getElementsByTagName('Materiau'));
+
+        return nodes.map(node => ({
+          identifiant: Number(node.getElementsByTagName('Identifiant')[0]?.textContent),
+          nom: node.getElementsByTagName('Nom')[0]?.textContent || '',
+          multiplicateur: Number(node.getElementsByTagName('Multiplicateur')[0]?.textContent),
+          rang: Number(node.getElementsByTagName('Rang')[0]?.textContent),
+          acquisition: node.getElementsByTagName('Acquisition')[0]?.textContent || '',
+          prixAchat: Number(node.getElementsByTagName('PrixAchat')[0]?.textContent),
+          prixVente: Number(node.getElementsByTagName('PrixVente')[0]?.textContent),
+          experienceRang: Array.from({ length: 11 }, (_, i) => Number(node.getElementsByTagName(`ExperienceRang${i + 1}`)[0]?.textContent))
+        }));      
+      })
+    );
   }
 
-  private parseMateriaux(xmlText: string): MateriauModel[] {
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(xmlText, 'text/xml');
-    const nodes = Array.from(xml.getElementsByTagName('Materiau'));
-
-    return nodes.map(node => ({
-      identifiant: Number(this.getText(node, 'Identifiant')),
-      nom: this.getText(node, 'Nom'),
-      multiplicateur: this.getText(node, 'Multiplicateur'),
-      rang: Number(this.getText(node, 'Rang')),
-      acquisition: this.getText(node, 'Acquisition'),
-      prixAchat: Number(this.getText(node, 'PrixAchat')),
-      prixVente: Number(this.getText(node, 'PrixVente')),
-      experienceRang: Array.from({ length: 11 }, (_, i) => Number(this.getText(node, `ExperienceRang${i + 1}`)))
-    }));
-  }
-
-  // --- helper pour lire un tag ---
-  private getText(node: Element, tag: string): string {
-    return node.getElementsByTagName(tag)[0]?.textContent ?? '';
-  }
-
-    // --- charger tout en une seule fois ---
+  // --- charger tout en une seule fois ---
   loadAll(): Observable<{ armes: ArmeModel[], materiaux: MateriauModel[], accessoires: AccessoireModel[] }> {
+    console.log('dataservice loadAll début');
     return forkJoin({
       armes: this.loadArmes(),
       materiaux: this.loadMateriaux(),
       accessoires: this.loadAccessoires()
     });
   }
-
 }
