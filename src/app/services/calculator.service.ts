@@ -5,34 +5,72 @@ import { MateriauModel } from '../models/materiau.model';
 
 interface MateriauOptimise {
   materiau: MateriauModel;
-  nbExemplaires: number;
-  coutTotal: number;
+  nombre: number;
+  cout: number;
 }
 
 @Injectable({
   providedIn: 'root',
 })
 export class CalculatorService {
-
   constructor() {}
 
   // Calcule le total d'XP nécessaire pour passer du niveau actuel au niveau cible
-  calculerXpTotal(niveauActuel: number, niveauCible: number, base: number, increment: number): number {
+  calculerXpTotal(
+    niveauActuel: number,
+    niveauCible: number,
+    base: number,
+    increment: number,
+  ): number {
     let xpTotal = 0;
+
+    if (niveauCible == 1) return base;
+
+    if (niveauActuel === 26) return 0;
+
+    if (niveauActuel === niveauCible) return base + increment * (niveauActuel - 1);
+
     for (let lvl = niveauActuel; lvl < niveauCible; lvl++) {
       xpTotal += base + increment * (lvl - 1);
     }
+
     return xpTotal;
   }
 
   // Calcule le total d'XP nécessaire pour passer du niveau actuel au niveau cible d'une arme
   calculerXpArme(arme: ArmeModel, niveauActuel: number, niveauCible: number): number {
-    return this.calculerXpTotal(niveauActuel, niveauCible, arme.experienceBase, arme.experienceIncrement);
+    return this.calculerXpTotal(
+      niveauActuel,
+      niveauCible,
+      arme.experienceBase,
+      arme.experienceIncrement,
+    );
+  }
+
+  // Calcule la force de l'arme à un niveau spécifique
+  calculerForceArme(arme: ArmeModel, niveau: number): number {
+    if (niveau === 1) return arme.forceMin;
+    else return arme.forceMin + arme.forceIncrement * (niveau - 1);
+  }
+
+  // Calcule la magie de l'arme à un niveau spécifique
+  calculerMagieArme(arme: ArmeModel, niveau: number): number {
+    if (niveau === 1) return arme.magieMin;
+    else return arme.magieMin + arme.magieIncrement * (niveau - 1);
   }
 
   // Calcule le total d'XP nécessaire pour passer du niveau actuel au niveau cible d'un accessoire
-  calculerXpAccessoire(accessoire: AccessoireModel, niveauActuel: number, niveauCible: number): number {
-    return this.calculerXpTotal(niveauActuel, niveauCible, accessoire.experienceBase, accessoire.experienceIncrement);
+  calculerXpAccessoire(
+    accessoire: AccessoireModel,
+    niveauActuel: number,
+    niveauCible: number,
+  ): number {
+    return this.calculerXpTotal(
+      niveauActuel,
+      niveauCible,
+      accessoire.experienceBase,
+      accessoire.experienceIncrement,
+    );
   }
 
   // Retourne le bonus multiplicateur selon le total de multiplicateur
@@ -46,33 +84,33 @@ export class CalculatorService {
   }
 
   // Calcule le nombre minimal d'exemplaires d'un matériau pour atteindre le bonus ×3
-  getMateriauxPourBonusMax(materiaux: MateriauModel[]): {materiau: MateriauModel, count: number}[] {
-    // tri décroissant par valeur absolue du multiplicateur
-    const sorted = [...materiaux].sort((a,b) => 
-      Math.abs(Number(b.multiplicateur)) - Math.abs(Number(a.multiplicateur))
-  );
+  getMateriauPourBonusMax(materiaux: MateriauModel[]): { materiau: MateriauModel; nombre: number; cout: number } {
+    let best!: { materiau: MateriauModel; nombre: number; cout: number };
 
-  const result: {materiau: MateriauModel, count: number}[] = [];
-  let total = 0;
+    for (const m of materiaux) {
+      const mult = Number(m.multiplicateur) || 0;
 
-  for (const m of sorted) {
-    const mult = Number(m.multiplicateur) || 0;
-    if(mult <= 0) continue; // on ignore les multiplicateurs négatifs pour atteindre bonus ×3
-    let needed = 0;
-    while(total <= 500) {
-      total += mult;
-      needed++;
+      if (mult <= 0) continue; // on ignore les multiplicateurs négatifs
+      if (m.prixAchat === 0) continue; // on ignore les matériaux qu'on ne peut pas acheter
+
+      const nombre = Math.floor(501 / mult) + 1; // atteindre strictement >500
+      const cout = nombre * m.prixAchat;
+
+      if (!best || cout < best.cout) {
+        best = {
+          materiau: m,
+          nombre,
+          cout,
+        };
+      }
     }
-    if(needed > 0) result.push({materiau: m, count: needed});
-    if(total > 500) break;
-  }
-  
-  return result;
+
+    return best;
   }
 
   // Calcule l'XP fournie par un matériau selon le rang et le bonus
   private calculerXpMateriau(m: MateriauModel, rang: number, bonus: number): number {
-    const xpBase = m.experienceRang[rang-1] || 0;
+    const xpBase = m.experienceRang[rang - 1] || 0;
     return xpBase * bonus;
   }
 
@@ -80,32 +118,27 @@ export class CalculatorService {
   calculerMateriauOptimal(
     xpTotal: number,
     materiaux: MateriauModel[],
-    rang: number
+    rang: number,
   ): MateriauOptimise {
-
-    // On commence par obtenir le bonus ×3 minimal
-    const materiauxBonus = this.getMateriauxPourBonusMax(materiaux);
-    const totalBonusMultiplicateur = materiauxBonus.reduce(
-      (sum, m) => sum + Number(m.materiau.multiplicateur) * m.count, 0
-    );
-    const bonus = this.getBonusMultiplicateur(totalBonusMultiplicateur);
+    // On commence par définir le bonus multiplicateur (×3 minimal)
+    const bonus = 3;
 
     // Maintenant on cherche le matériau le plus rentable prix/XP
     let meilleur: MateriauOptimise | null = null;
-    for(const m of materiaux){
+    for (const m of materiaux) {
       const xpParExemplaire = this.calculerXpMateriau(m, rang, bonus);
-      if(xpParExemplaire <= 0) continue;
+      if (xpParExemplaire <= 0) continue;
+      if (m.prixAchat === 0) continue;
 
       const nbExemplaires = Math.ceil(xpTotal / xpParExemplaire);
       const cout = nbExemplaires * m.prixAchat;
 
-      if(!meilleur || nbExemplaires < meilleur.nbExemplaires || 
-         (nbExemplaires === meilleur.nbExemplaires && cout < meilleur.coutTotal)){
-        meilleur = { materiau: m, nbExemplaires, coutTotal: cout };
+      if (!meilleur || cout < meilleur.cout || (cout === meilleur.cout && nbExemplaires < meilleur.nombre)
+      ) {
+        meilleur = { materiau: m, nombre: nbExemplaires, cout: cout };
       }
     }
 
     return meilleur!;
   }
-
 }

@@ -9,7 +9,7 @@
 		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
 		<PrixAchat>2000</PrixAchat>
 		<PrixVente>1000</PrixVente>
-		<Acquisition>Boutique</Acquisition>
+		<Acquisition>Aux armes</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<ForceMin>15</ForceMin>
 		<ForceMax>115</ForceMax>
@@ -67,7 +67,7 @@
 		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
 		<PrixAchat>15000</PrixAchat>
 		<PrixVente>7500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Atelier Plautus</Acquisition>
 		<Catalyste>Adamante</Catalyste>
 		<ForceMin>8</ForceMin>
 		<ForceMax>48</ForceMax>
@@ -126,7 +126,7 @@
 		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
 		<PrixAchat>4600</PrixAchat>
 		<PrixVente>2300</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Aux armes</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<ForceMin>8</ForceMin>
 		<ForceMax>83</ForceMax>
@@ -184,7 +184,7 @@
 		<GroupeCompetencesDerivees>Urgence</GroupeCompetencesDerivees>
 		<PrixAchat>20000</PrixAchat>
 		<PrixVente>10000</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Atelier Plautus</Acquisition>
 		<Catalyste>Scarlatium</Catalyste>
 		<ForceMin>8</ForceMin>
 		<ForceMax>88</ForceMax>
@@ -243,7 +243,7 @@
 		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
 		<PrixAchat>7100</PrixAchat>
 		<PrixVente>3550</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Aux armes</Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<ForceMin>25</ForceMin>
 		<ForceMax>175</ForceMax>
@@ -281,7 +281,7 @@
 		<NiveauMax>100</NiveauMax>
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
-		<PrixVente>45400</PrixVente>
+		<PrixVente>45440</PrixVente>
 		<ForceMin>30</ForceMin>
 		<ForceMax>723</ForceMax>
 		<ForceIncrement>7</ForceIncrement>
@@ -301,7 +301,7 @@
 		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
 		<PrixAchat>280000</PrixAchat>
 		<PrixVente>14000</PrixVente>
-		<Acquisition>Boutique</Acquisition>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
 		<Catalyste>Cobaltite</Catalyste>
 		<ForceMin>37</ForceMin>
 		<ForceMax>187</ForceMax>
@@ -361,7 +361,7 @@
 		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
 		<PrixAchat>20000</PrixAchat>
 		<PrixVente>10000</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<ForceMin>13</ForceMin>
 		<ForceMax>138</ForceMax>
@@ -421,7 +421,7 @@
 		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
 		<PrixAchat>28000</PrixAchat>
 		<PrixVente>14000</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Atelier Plautus</Acquisition>
 		<Catalyste>Scarlatium</Catalyste>
 		<ForceMin>8</ForceMin>
 		<ForceMax>68</ForceMax>

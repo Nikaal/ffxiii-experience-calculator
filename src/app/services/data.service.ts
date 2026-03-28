@@ -115,7 +115,6 @@ export class DataService {
 
   // --- charger tout en une seule fois ---
   loadAll(): Observable<{ armes: ArmeModel[], materiaux: MateriauModel[], accessoires: AccessoireModel[] }> {
-    console.log('dataservice loadAll début');
     return forkJoin({
       armes: this.loadArmes(),
       materiaux: this.loadMateriaux(),

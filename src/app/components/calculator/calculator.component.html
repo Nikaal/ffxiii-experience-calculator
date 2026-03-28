@@ -1,112 +1,119 @@
 <div class="container">
 
-<h1>FFXIII Calculateur d'expérience</h1>
+        <h1>FFXIII Calculateur d'expérience</h1>
 
-<div class="card">
+        <div class="card">
 
-<h2>Type</h2>
+                <h2>Type</h2>
 
-<label>
-<input type="radio"
-       [(ngModel)]="typeSelection"
-       value="arme">
-Arme
-</label>
+                <label>
+                        <input type="radio" [(ngModel)]="typeSelection" value="arme">
+                        Arme
+                </label>
 
-<label>
-<input type="radio"
-       [(ngModel)]="typeSelection"
-       value="accessoire">
-Accessoire
-</label>
+                <label>
+                        <input type="radio" [(ngModel)]="typeSelection" value="accessoire">
+                        Accessoire
+                </label>
 
-</div>
+        </div>
 
-<!-- SECTION ARME -->
+        <!-- SECTION ARME -->
 
-@if (typeSelection === 'arme') {
+        @if (typeSelection === 'arme') {
 
-<div class="card">
+        <div class="card">
 
-@if (data$ | async; as data) {
+                @if (data$ | async; as data) {
 
-<label>Personnage</label>
-<select [(ngModel)]="personnageSelectionne" (change)="onPersonnageChange()">
-        <option [value]="undefined">-- choisir --</option>
-        @for (p of personnages; track p) {
-                <option [value]="p">{{p}}</option>
+                <label>Personnage</label>
+                <select [(ngModel)]="personnageSelectionne" (change)="onPersonnageChange()">
+                        <option [value]="undefined">-- choisir --</option>
+                        @for (p of personnages; track p) {
+                        <option [value]="p">{{p}}</option>
+                        }
+                </select>
+
+                <label>Arme</label>
+                <select [(ngModel)]="armeSelectionnee" (ngModelChange)="onArmeChange($event)">
+                        <option [ngValue]="null">-- choisir --</option>
+                        @for (arme of armesParPersonnage[personnageSelectionne ?? ''] ?? []; track arme.identifiant) {
+                        <option [ngValue]="arme">{{arme.nom}}</option>
+                        }
+                </select>
+
+                <label>Niveau actuel</label>
+                <input type="number" [(ngModel)]="niveauActuel" (change)="onNiveauActuelArmeChange()" (input)="onNiveauActuelArmeInput($event)"
+                        min="1" max="arme.niveauMax" step="1">
+
+                <label>Niveau cible (max : {{ armeSelectionnee$.value?.niveauMax }})</label>
+                <input type="number" [(ngModel)]="niveauCible" (input)="onNiveauCibleArmeInput($event)" min="1"
+                        max="arme.niveauMax" step="1">
+
+                @if (armeSelectionnee$.value != null) {
+                <label>Force au niveau actuel : {{ forceNiveauActuel }}</label>
+
+                <label>Magie au niveau actuel : {{ magieNiveauActuel }}</label>
+
+                <label>Expérience requise au niveau actuel : {{ experienceNiveauActuel }}</label>
+
+                <label>Catalyste : {{ armeSelectionnee$.value.catalyste }}</label>
+
+                @if (armeSelectionnee$.value.prixAchat != 0) {
+                <label>Boutique : {{ armeSelectionnee$.value.acquisition }} ({{ armeSelectionnee$.value.prixAchat }} gils)</label>
+                }
+                }                
         }
-</select>
-
-<label>Arme</label>
-<select [(ngModel)]="armeSelectionnee">
-        <option [ngValue]="undefined">-- choisir --</option>
-        @for (arme of armesParPersonnage[personnageSelectionne ?? ''] ?? []; track arme.identifiant) {
-                <option [ngValue]="arme">{{arme.nom}}</option>
+        </div>
         }
-</select>
 
-<label>Niveau actuel</label>
-<input type="number" [(ngModel)]="niveauActuel">
+        <!-- SECTION ACCESSOIRE -->
 
-<label>Niveau cible (max : {{ armeSelectionnee?.niveauMax }})</label>
-<input type="number" [(ngModel)]="niveauCibleArme" min="1" placeholder="1 - {{ armeSelectionnee?.niveauMax }}">
+        @if (typeSelection === 'accessoire') {
 
-<button (click)="calculerArme()">Calculer</button>
-}
-</div>
-}
+        <div class="card">
+                @if (data$ | async; as data) {
+                <label>Accessoire</label>
 
-<!-- SECTION ACCESSOIRE -->
+                <select [(ngModel)]="accessoireSelectionne">
+                        <option [ngValue]="undefined">-- choisir --</option>
+                        @for (accessoire of data.accessoires; track accessoire.identifiant) {
+                        <option [ngValue]="accessoire">
+                                {{accessoire.nom}}
+                        </option>
+                        }
+                </select>
 
-@if (typeSelection === 'accessoire') {
+                <label>Niveau actuel</label>
+                <input type="number" [(ngModel)]="niveauActuel">
 
-<div class="card">
-@if (data$ | async; as data) {
-<label>Accessoire</label>
-
-<select [(ngModel)]="accessoireSelectionne">
-        <option [ngValue]="undefined">-- choisir --</option>
-        @for (accessoire of data.accessoires; track accessoire.identifiant) {
-                <option [ngValue]="accessoire">
-                        {{accessoire.nom}}
-                </option>
+                <label>Niveau cible (max : {{ accessoireSelectionne?.niveauMax }})</label>
+                <input type="number" [(ngModel)]="niveauCible$" min="1"
+                        placeholder="1 - {{ accessoireSelectionne?.niveauMax }}">
+                }
+        </div>
         }
-</select>
 
-<label>Niveau actuel</label>
-<input type="number" [(ngModel)]="niveauActuel">
+        @if (resultatCalcul$ | async; as resultat) {
+        <div class="card result">
 
-<label>Niveau cible (max : {{ accessoireSelectionne?.niveauMax }})</label>
-<input type="number" [(ngModel)]="niveauCibleAccessoire" min="1" placeholder="1 - {{ accessoireSelectionne?.niveauMax }}">
+                <h2>Résultat</h2>
 
-<button (click)="calculerAccessoire()">Calculer</button>
-}
-</div>
-}
+                <p>Expérience nécessaire pour passer du niveau {{ niveauActuel }} à {{ niveauCible }} : {{ resultat.xpNecessaire }}</p>
+                
+                <p>
+                        Bonus x3 : {{ resultat.multiplicateurNombre }} {{ resultat.multiplicateurMateriau }} (coût : {{ resultat.multiplicateurCout }} gils)
+                </p>
+                
+                <p>
+                        Matériau optimal : {{ resultat.materiauNombre }} {{ resultat.materiauOptimal }} (coût : {{ resultat.materiauCout }} gils)
+                </p>
+                
+                <p>
+                        <strong>Coût total : {{ resultat.coutTotal }} gils</strong>
+                </p>
 
-@if (resultat) {
-<div class="card result">
-
-<h2>Résultat</h2>
-
-<p>
-<b>XP nécessaire :</b> {{xpNecessaire}}
-</p>
-
-<p>
-<b>Matériau optimal :</b> {{resultat.nom}}
-</p>
-
-<p>
-<b>Nombre :</b> {{resultat.nombre}}
-</p>
-
-<p>
-<b>Coût total :</b> {{resultat.cout}}
-</p>
-
-</div>
-}
+        </div>
+        }
 
 </div>
