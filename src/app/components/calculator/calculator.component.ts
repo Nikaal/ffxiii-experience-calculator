@@ -13,6 +13,7 @@ interface CalculResultat {
   multiplicateurMateriau?: string;
   multiplicateurNombre?: number;
   multiplicateurCout?: number;
+  multiplicateurXp?: number;
   materiauOptimal?: string;
   materiauNombre?: number;
   materiauCout?: number;
@@ -56,8 +57,7 @@ export class CalculatorComponent {
   forceNiveauActuel = 1;
   magieNiveauActuel = 1;
   experienceNiveauActuel = 1;
-  accessoireProprieteMin = 1;
-  accessoireProprieteMax = 1;
+  accessoireProprieteNiveauActuel = "";
 
   resultatCalcul$: Observable<CalculResultat | null>;
 
@@ -82,25 +82,30 @@ export class CalculatorComponent {
     this.resultatCalcul$ = combineLatest({
       data: this.data$,
       arme: this.armeSelectionnee$,
+      accessoire: this.accessoireSelectionne$,
       niveauActuel: this.niveauActuel$,
       niveauCible: this.niveauCible$
     }).pipe(
-      map(({ data, arme, niveauActuel, niveauCible }) => {
-        if (!arme || !niveauActuel || !niveauCible || niveauActuel >= niveauCible) return null;
+      map(({ data, arme, accessoire, niveauActuel, niveauCible }) => {
+        const equipement = arme ?? accessoire;
+        if (!equipement) return null;
+
+        if (!niveauActuel || !niveauCible || niveauActuel >= niveauCible) return null;        
 
         const xp = this.calculatorService.calculerXpTotal(
           niveauActuel,
           niveauCible,
-          arme.experienceBase,
-          arme.experienceIncrement,
+          equipement.niveauMax,
+          equipement.experienceBase,
+          equipement.experienceIncrement
         );
 
-        const bonus = this.calculatorService.getMateriauPourBonusMax(data.materiaux);
+        const bonus = this.calculatorService.getMateriauPourBonusMax(data.materiaux, equipement.rang);
 
         const materiau = this.calculatorService.calculerMateriauOptimal(
           xp,
           this.materiaux,
-          arme.rang,
+          equipement.rang,
         );
 
         return {
@@ -109,6 +114,7 @@ export class CalculatorComponent {
           multiplicateurMateriau: bonus.materiau.nom,
           multiplicateurNombre: bonus.nombre,
           multiplicateurCout: bonus.cout,
+          multiplicateurXp: bonus.xp,
 
           materiauOptimal: materiau.materiau.nom,
           materiauNombre: materiau.nombre,
@@ -118,6 +124,23 @@ export class CalculatorComponent {
         };
       }),
     );
+  }
+
+  onTypeChange(type: 'arme' | 'accessoire') {
+    this.typeSelection = type;
+
+    // reset sélections
+    this.personnageSelectionne = undefined;
+    this.armeSelectionnee = null;
+    this.accessoireSelectionne = null;
+
+    this.armeSelectionnee$.next(null);
+    this.accessoireSelectionne$.next(null);
+    
+    this.niveauActuel$.next(1);
+    this.niveauActuel = 1;
+    this.niveauCible$.next(1);
+    this.niveauCible = 1;
   }
 
   onPersonnageChange() {
@@ -182,8 +205,54 @@ export class CalculatorComponent {
     );
     this.experienceNiveauActuel = this.calculatorService.calculerXpArme(
       this.armeSelectionnee$.value,
-      this.niveauActuel,
-      this.niveauActuel,
+      this.niveauActuel
     );
+  }
+
+  onAccessoireChange(accessoire: AccessoireModel | null) {
+    this.accessoireSelectionne$.next(accessoire);
+    this.niveauActuel$.next(1);
+    this.niveauActuel = 1;
+    this.niveauCible$.next(1);
+    this.niveauCible = 1;
+    this.calculerProprietesAccessoireNiveauActuel();
+  }
+
+  onNiveauActuelAccessoireInput(event: Event) {
+    const input = event.target as HTMLInputElement;
+    let value = Number(input.value);
+    const max = this.accessoireSelectionne$.value?.niveauMax ?? 1;
+
+    if (value > max) value = max;
+    if (value < 1) value = 1;
+
+    this.niveauActuel$.next(value);
+    this.niveauActuel = value;
+    input.value = value.toString();
+  }
+
+  onNiveauCibleAccessoireInput(event: Event) {
+    const input = event.target as HTMLInputElement;
+    let value = Number(input.value);
+    const max = this.accessoireSelectionne$.value?.niveauMax ?? 1;
+
+    if (value > max) value = max;
+    if (value < 1) value = 1;
+
+    this.niveauCible$.next(value);
+    this.niveauCible = value;
+    input.value = value.toString();
+  }
+
+  onNiveauActuelAccessoireChange() {
+    this.niveauActuel$.next(this.niveauActuel);
+    this.calculerProprietesAccessoireNiveauActuel();
+  }
+
+  calculerProprietesAccessoireNiveauActuel() {
+    if (this.accessoireSelectionne$.value === null) return;
+    if (this.niveauActuel === 0 || this.niveauActuel > this.accessoireSelectionne$.value.niveauMax) return;
+    this.accessoireProprieteNiveauActuel = this.calculatorService.calculerProprieteAccessoire(this.accessoireSelectionne$.value, this.niveauActuel);
+    this.experienceNiveauActuel = this.calculatorService.calculerXpAccessoire(this.accessoireSelectionne$.value, this.niveauActuel);
   }
 }

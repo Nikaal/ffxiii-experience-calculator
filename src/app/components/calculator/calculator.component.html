@@ -1,19 +1,19 @@
 <div class="container">
 
-        <h1>FFXIII Calculateur d'expérience</h1>
+        <h1>Final Fantasy XIII<br>Calculateur d'expérience</h1>
 
         <div class="card">
 
                 <h2>Type</h2>
 
                 <label>
-                        <input type="radio" [(ngModel)]="typeSelection" value="arme">
-                        Arme
+                        <input type="radio" [(ngModel)]="typeSelection" (ngModelChange)="onTypeChange($event)" value="arme">
+                        Armes
                 </label>
 
                 <label>
-                        <input type="radio" [(ngModel)]="typeSelection" value="accessoire">
-                        Accessoire
+                        <input type="radio" [(ngModel)]="typeSelection" (ngModelChange)="onTypeChange($event)" value="accessoire">
+                        Accessoires
                 </label>
 
         </div>
@@ -43,8 +43,8 @@
                 </select>
 
                 <label>Niveau actuel</label>
-                <input type="number" [(ngModel)]="niveauActuel" (change)="onNiveauActuelArmeChange()" (input)="onNiveauActuelArmeInput($event)"
-                        min="1" max="arme.niveauMax" step="1">
+                <input type="number" [(ngModel)]="niveauActuel" (change)="onNiveauActuelArmeChange()"
+                        (input)="onNiveauActuelArmeInput($event)" min="1" max="arme.niveauMax" step="1">
 
                 <label>Niveau cible (max : {{ armeSelectionnee$.value?.niveauMax }})</label>
                 <input type="number" [(ngModel)]="niveauCible" (input)="onNiveauCibleArmeInput($event)" min="1"
@@ -60,10 +60,11 @@
                 <label>Catalyste : {{ armeSelectionnee$.value.catalyste }}</label>
 
                 @if (armeSelectionnee$.value.prixAchat != 0) {
-                <label>Boutique : {{ armeSelectionnee$.value.acquisition }} ({{ armeSelectionnee$.value.prixAchat }} gils)</label>
+                <label>Boutique : {{ armeSelectionnee$.value.acquisition }} ({{ armeSelectionnee$.value.prixAchat }}
+                        gils)</label>
                 }
-                }                
-        }
+                }
+                }
         </div>
         }
 
@@ -73,23 +74,36 @@
 
         <div class="card">
                 @if (data$ | async; as data) {
+
                 <label>Accessoire</label>
 
-                <select [(ngModel)]="accessoireSelectionne">
-                        <option [ngValue]="undefined">-- choisir --</option>
+                <select [(ngModel)]="accessoireSelectionne" (ngModelChange)="onAccessoireChange($event)">
+                        <option [ngValue]="null">-- choisir --</option>
                         @for (accessoire of data.accessoires; track accessoire.identifiant) {
-                        <option [ngValue]="accessoire">
-                                {{accessoire.nom}}
-                        </option>
+                        <option [ngValue]="accessoire">{{accessoire.nom}}</option>
                         }
                 </select>
 
                 <label>Niveau actuel</label>
-                <input type="number" [(ngModel)]="niveauActuel">
+                <input type="number" [(ngModel)]="niveauActuel" (change)="onNiveauActuelAccessoireChange()"
+                        (input)="onNiveauActuelAccessoireInput($event)" min="1" max="accessoire.niveauMax" step="1">
 
-                <label>Niveau cible (max : {{ accessoireSelectionne?.niveauMax }})</label>
-                <input type="number" [(ngModel)]="niveauCible$" min="1"
-                        placeholder="1 - {{ accessoireSelectionne?.niveauMax }}">
+                <label>Niveau cible (max : {{ accessoireSelectionne$.value?.niveauMax }})</label>
+                <input type="number" [(ngModel)]="niveauCible" (input)="onNiveauCibleAccessoireInput($event)" min="1"
+                        max="accessoire.niveauMax" step="1">
+                
+                @if (accessoireSelectionne$.value != null) {
+                <label>Propriété au niveau actuel : {{ accessoireProprieteNiveauActuel }}</label>
+
+                <label>Expérience requise au niveau actuel : {{ experienceNiveauActuel }}</label>
+
+                <label>Catalyste : {{ accessoireSelectionne$.value.catalyste }}</label>
+
+                @if (accessoireSelectionne$.value.prixAchat != 0) {
+                <label>Boutique : {{ accessoireSelectionne$.value.acquisition }} ({{ accessoireSelectionne$.value.prixAchat }}
+                        gils)</label>
+                }
+                }
                 }
         </div>
         }
@@ -99,16 +113,19 @@
 
                 <h2>Résultat</h2>
 
-                <p>Expérience nécessaire pour passer du niveau {{ niveauActuel }} à {{ niveauCible }} : {{ resultat.xpNecessaire }}</p>
-                
+                <p>Expérience nécessaire pour passer du niveau {{ niveauActuel }} à {{ niveauCible }} : {{
+                        resultat.xpNecessaire }}</p>
+
                 <p>
-                        Bonus x3 : {{ resultat.multiplicateurNombre }} {{ resultat.multiplicateurMateriau }} (coût : {{ resultat.multiplicateurCout }} gils)
+                        Bonus x3 : {{ resultat.multiplicateurNombre }} {{ resultat.multiplicateurMateriau }} - coût : {{
+                        resultat.multiplicateurCout }} gils - expérience : {{ resultat.multiplicateurXp}}
                 </p>
-                
+
                 <p>
-                        Matériau optimal : {{ resultat.materiauNombre }} {{ resultat.materiauOptimal }} (coût : {{ resultat.materiauCout }} gils)
+                        Matériau optimal : {{ resultat.materiauNombre }} {{ resultat.materiauOptimal }} - coût : {{
+                        resultat.materiauCout }} gils
                 </p>
-                
+
                 <p>
                         <strong>Coût total : {{ resultat.coutTotal }} gils</strong>
                 </p>

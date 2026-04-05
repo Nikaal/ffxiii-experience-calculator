@@ -16,17 +16,12 @@ export class CalculatorService {
   constructor() {}
 
   // Calcule le total d'XP nécessaire pour passer du niveau actuel au niveau cible
-  calculerXpTotal(
-    niveauActuel: number,
-    niveauCible: number,
-    base: number,
-    increment: number,
-  ): number {
+  calculerXpTotal(niveauActuel: number, niveauCible: number, niveauMax: number, base: number, increment: number): number {
     let xpTotal = 0;
 
-    if (niveauCible == 1) return base;
+    if (niveauCible === 1) return base;
 
-    if (niveauActuel === 26) return 0;
+    if (niveauActuel === niveauMax) return 0;
 
     if (niveauActuel === niveauCible) return base + increment * (niveauActuel - 1);
 
@@ -37,14 +32,11 @@ export class CalculatorService {
     return xpTotal;
   }
 
-  // Calcule le total d'XP nécessaire pour passer du niveau actuel au niveau cible d'une arme
-  calculerXpArme(arme: ArmeModel, niveauActuel: number, niveauCible: number): number {
-    return this.calculerXpTotal(
-      niveauActuel,
-      niveauCible,
-      arme.experienceBase,
-      arme.experienceIncrement,
-    );
+  // Calcule l'XP de l'arme à un niveau spécifique
+  calculerXpArme(arme: ArmeModel, niveau: number): number {
+    if (niveau === 1) return arme.experienceBase;
+    else if (niveau === arme.niveauMax) return 0;
+    else return arme.experienceBase + arme.experienceIncrement * (niveau - 1);
   }
 
   // Calcule la force de l'arme à un niveau spécifique
@@ -59,18 +51,28 @@ export class CalculatorService {
     else return arme.magieMin + arme.magieIncrement * (niveau - 1);
   }
 
-  // Calcule le total d'XP nécessaire pour passer du niveau actuel au niveau cible d'un accessoire
-  calculerXpAccessoire(
-    accessoire: AccessoireModel,
-    niveauActuel: number,
-    niveauCible: number,
-  ): number {
-    return this.calculerXpTotal(
-      niveauActuel,
-      niveauCible,
-      accessoire.experienceBase,
-      accessoire.experienceIncrement,
-    );
+  // Calcule l'XP de l'accessoire à un niveau spécifique
+  calculerXpAccessoire(accessoire: AccessoireModel, niveau: number): number {
+    if (niveau === 1) return accessoire.experienceBase;
+    else if (niveau === accessoire.niveauMax) return 0;
+    else return accessoire.experienceBase + accessoire.experienceIncrement * (niveau - 1);
+  }
+
+  calculerProprieteAccessoire(accessoire: AccessoireModel, niveau: number): string {
+    if (accessoire.min === 0 || niveau === 1) return accessoire.proprieteSpeciale;
+    const p = this.parseProprieteSpeciale(accessoire.proprieteSpeciale);
+    let nouveauNombre = accessoire.min + accessoire.increment * (niveau - 1);
+    return p!.texte + " +" + nouveauNombre + (p!.pourcentage ? "%" : "");
+  }
+
+  parseProprieteSpeciale(valeur: string) {
+    const match = valeur.match(/^(.+?)\s*([+-]?\d+)(%)?$/);
+    if (!match) return null;
+    return {
+      texte: match[1].trim(),
+      nombre: Number(match[2]),      
+      pourcentage: match[3] === '%'
+    };
   }
 
   // Retourne le bonus multiplicateur selon le total de multiplicateur
@@ -84,8 +86,8 @@ export class CalculatorService {
   }
 
   // Calcule le nombre minimal d'exemplaires d'un matériau pour atteindre le bonus ×3
-  getMateriauPourBonusMax(materiaux: MateriauModel[]): { materiau: MateriauModel; nombre: number; cout: number } {
-    let best!: { materiau: MateriauModel; nombre: number; cout: number };
+  getMateriauPourBonusMax(materiaux: MateriauModel[], rang: number): { materiau: MateriauModel; nombre: number; cout: number; xp: number } {
+    let best!: { materiau: MateriauModel; nombre: number; cout: number, xp: number };
 
     for (const m of materiaux) {
       const mult = Number(m.multiplicateur) || 0;
@@ -95,12 +97,14 @@ export class CalculatorService {
 
       const nombre = Math.floor(501 / mult) + 1; // atteindre strictement >500
       const cout = nombre * m.prixAchat;
+      const xp = nombre * m.experienceRang[rang - 1];
 
       if (!best || cout < best.cout) {
         best = {
           materiau: m,
           nombre,
           cout,
+          xp
         };
       }
     }
