@@ -1,11 +1,12 @@
-<div class="container">
+<div class="page">
+<div class="ff-panel">
 
-        <h1>Final Fantasy XIII<br>Calculateur d'expérience</h1>
+        <h1 class="title">Final Fantasy XIII Calculateur d'expérience</h1>
 
-        <div class="card">
+        <div class="form-grid">
 
-                <h2>Type</h2>
-
+                <label>Type</label>
+                <div class="radio-group">
                 <label>
                         <input type="radio" [(ngModel)]="typeSelection" (ngModelChange)="onTypeChange($event)" value="arme">
                         Armes
@@ -15,14 +16,14 @@
                         <input type="radio" [(ngModel)]="typeSelection" (ngModelChange)="onTypeChange($event)" value="accessoire">
                         Accessoires
                 </label>
-
+                </div>
         </div>
 
         <!-- SECTION ARME -->
 
         @if (typeSelection === 'arme') {
 
-        <div class="card">
+        <div class="form-grid">
 
                 @if (data$ | async; as data) {
 
@@ -49,21 +50,28 @@
                 <label>Niveau cible (max : {{ armeSelectionnee$.value?.niveauMax }})</label>
                 <input type="number" [(ngModel)]="niveauCible" (input)="onNiveauCibleArmeInput($event)" min="1"
                         max="arme.niveauMax" step="1">
-
+                <div class="stats-panel">
                 @if (armeSelectionnee$.value != null) {
-                <label>Force au niveau actuel : {{ forceNiveauActuel }}</label>
+                <span>Force au niveau actuel</span>
+                <span>{{ forceNiveauActuel }}</span>
 
-                <label>Magie au niveau actuel : {{ magieNiveauActuel }}</label>
+                <span>Magie au niveau actuel</span>
+                <span>{{ magieNiveauActuel }}</span>
 
-                <label>Expérience requise au niveau actuel : {{ experienceNiveauActuel }}</label>
+                <span>Expérience requise au niveau actuel</span>
+                <span>{{ experienceNiveauActuel }}</span>
 
-                <label>Catalyste : {{ armeSelectionnee$.value.catalyste }}</label>
+                @if (armeSelectionnee$.value?.catalyste?.trim()) {
+                <span>Catalyste</span>
+                <span>{{ armeSelectionnee$.value.catalyste }}</span>
+                }
 
                 @if (armeSelectionnee$.value.prixAchat != 0) {
-                <label>Boutique : {{ armeSelectionnee$.value.acquisition }} ({{ armeSelectionnee$.value.prixAchat }}
-                        gils)</label>
+                <span>Boutique</span>
+                <span>{{ armeSelectionnee$.value.acquisition }} ({{ armeSelectionnee$.value.prixAchat }} gils)</span>
                 }
                 }
+                </div>
                 }
         </div>
         }
@@ -72,7 +80,7 @@
 
         @if (typeSelection === 'accessoire') {
 
-        <div class="card">
+        <div class="form-grid">
                 @if (data$ | async; as data) {
 
                 <label>Accessoire</label>
@@ -92,24 +100,31 @@
                 <input type="number" [(ngModel)]="niveauCible" (input)="onNiveauCibleAccessoireInput($event)" min="1"
                         max="accessoire.niveauMax" step="1">
                 
+                <div class="stats-panel">
                 @if (accessoireSelectionne$.value != null) {
-                <label>Propriété au niveau actuel : {{ accessoireProprieteNiveauActuel }}</label>
+                <span>Propriété au niveau actuel</span>
+                <span>{{ accessoireProprieteNiveauActuel }}</span>
 
-                <label>Expérience requise au niveau actuel : {{ experienceNiveauActuel }}</label>
+                <span>Expérience requise au niveau actuel</span>
+                <span>{{ experienceNiveauActuel }}</span>
 
-                <label>Catalyste : {{ accessoireSelectionne$.value.catalyste }}</label>
+                @if (accessoireSelectionne$.value?.catalyste?.trim()) {
+                <span>Catalyste</span>
+                <span>{{ accessoireSelectionne$.value.catalyste }}</span>
+                }
 
                 @if (accessoireSelectionne$.value.prixAchat != 0) {
-                <label>Boutique : {{ accessoireSelectionne$.value.acquisition }} ({{ accessoireSelectionne$.value.prixAchat }}
-                        gils)</label>
+                <span>Boutique</span>
+                <span>{{ accessoireSelectionne$.value.acquisition }} ({{ accessoireSelectionne$.value.prixAchat }} gils)</span>
                 }
                 }
+                </div>
                 }
         </div>
         }
 
         @if (resultatCalcul$ | async; as resultat) {
-        <div class="card result">
+        <div class="result-panel">
 
                 <h2>Résultat</h2>
 
@@ -133,4 +148,5 @@
         </div>
         }
 
+</div>
 </div>
