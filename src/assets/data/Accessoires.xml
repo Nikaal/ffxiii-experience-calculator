@@ -128,6 +128,7 @@
 		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>36000</PrixVente>
+		<Acquisition></Acquisition>
 		<Catalyste>Adamante</Catalyste>
 		<Min>500</Min>
 		<Max>1000</Max>
@@ -144,6 +145,7 @@
 		<GroupeCompetencesDerivees>Réduction des dégâts</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>50000</PrixVente>
+		<Acquisition></Acquisition>
 		<Catalyste>Matière obscure</Catalyste>
 		<Min>800</Min>
 		<Max>1500</Max>
@@ -160,6 +162,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>150000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>1500</Min>
 		<Max>3000</Max>
 		<Increment>30</Increment>
@@ -175,7 +178,7 @@
 		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
 		<PrixAchat>1000</PrixAchat>
 		<PrixVente>500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Cobaltite</Catalyste>
 		<Min>20</Min>
 		<Max>60</Max>
@@ -192,7 +195,7 @@
 		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<Min>50</Min>
 		<Max>120</Max>
@@ -209,7 +212,7 @@
 		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
 		<PrixAchat>10000</PrixAchat>
 		<PrixVente>5000</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Scarlatium</Catalyste>
 		<Min>100</Min>
 		<Max>180</Max>
@@ -226,7 +229,7 @@
 		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>13500</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Matière obscure</Catalyste>
 		<Min>150</Min>
 		<Max>250</Max>
@@ -243,6 +246,7 @@
 		<GroupeCompetencesDerivees>Physique ultime</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>31500</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>200</Min>
 		<Max>300</Max>
 		<Increment>10</Increment>
@@ -258,7 +262,7 @@
 		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
 		<PrixAchat>1000</PrixAchat>
 		<PrixVente>500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Cobaltite</Catalyste>
 		<Min>20</Min>
 		<Max>60</Max>
@@ -275,7 +279,7 @@
 		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<Min>50</Min>
 		<Max>120</Max>
@@ -292,7 +296,7 @@
 		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
 		<PrixAchat>10000</PrixAchat>
 		<PrixVente>5000</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Scarlatium</Catalyste>
 		<Min>100</Min>
 		<Max>180</Max>
@@ -309,7 +313,7 @@
 		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>13500</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Matière obscure</Catalyste>
 		<Min>150</Min>
 		<Max>250</Max>
@@ -326,6 +330,7 @@
 		<GroupeCompetencesDerivees>Magie ultime</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>31500</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>200</Min>
 		<Max>300</Max>
 		<Increment>10</Increment>
@@ -341,7 +346,7 @@
 		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
 		<PrixAchat>4500</PrixAchat>
 		<PrixVente>2250</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<Min>10</Min>
 		<Max>20</Max>
@@ -358,7 +363,7 @@
 		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
 		<PrixAchat>12000</PrixAchat>
 		<PrixVente>6000</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Adamante</Catalyste>
 		<Min>15</Min>
 		<Max>25</Max>
@@ -375,6 +380,7 @@
 		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>18150</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>20</Min>
 		<Max>30</Max>
 		<Increment>1</Increment>
@@ -390,7 +396,7 @@
 		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
 		<PrixAchat>4500</PrixAchat>
 		<PrixVente>2250</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<Min>10</Min>
 		<Max>20</Max>
@@ -407,7 +413,7 @@
 		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
 		<PrixAchat>12000</PrixAchat>
 		<PrixVente>6000</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Adamante</Catalyste>
 		<Min>15</Min>
 		<Max>25</Max>
@@ -424,6 +430,7 @@
 		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>18150</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>20</Min>
 		<Max>30</Max>
 		<Increment>1</Increment>
@@ -435,11 +442,11 @@
 		<Nom>Gantelet royal</Nom>
 		<Rang>8</Rang>
 		<NiveauMax>11</NiveauMax>
-		<ProprieteSpeciale>Résistance phys &amp; mag +5%</ProprieteSpeciale>
+		<ProprieteSpeciale>Résistance physique et magique +5%</ProprieteSpeciale>
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>200000</PrixAchat>
 		<PrixVente>20000</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Institut Sanctum</Acquisition>
 		<Catalyste>Matière obscure</Catalyste>
 		<Min>5</Min>
 		<Max>15</Max>
@@ -452,10 +459,11 @@
 		<Nom>Gantelet impérial</Nom>
 		<Rang>10</Rang>
 		<NiveauMax>6</NiveauMax>
-		<ProprieteSpeciale>Résistance phys &amp; mag +10%</ProprieteSpeciale>
+		<ProprieteSpeciale>Résistance physique et magique +10%</ProprieteSpeciale>
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>50000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>10</Min>
 		<Max>20</Max>
 		<Increment>2</Increment>
@@ -471,7 +479,7 @@
 		<GroupeCompetencesDerivees>Puissance Feu</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>1000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Cobaltite</Catalyste>
 		<Min>20</Min>
 		<Max>30</Max>
@@ -488,7 +496,7 @@
 		<GroupeCompetencesDerivees>Puissance Feu</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>3000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<Min>25</Min>
 		<Max>35</Max>
@@ -505,6 +513,7 @@
 		<GroupeCompetencesDerivees>Puissance Feu</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>5000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>30</Min>
 		<Max>40</Max>
 		<Increment>2</Increment>
@@ -520,7 +529,7 @@
 		<GroupeCompetencesDerivees>Puissance Glace</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>1000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Cobaltite</Catalyste>
 		<Min>20</Min>
 		<Max>30</Max>
@@ -537,6 +546,7 @@
 		<GroupeCompetencesDerivees>Puissance Glace</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>3000</PrixVente>
+		<Acquisition></Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<Min>25</Min>
 		<Max>35</Max>
@@ -553,6 +563,7 @@
 		<GroupeCompetencesDerivees>Puissance Glace</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>5000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>30</Min>
 		<Max>40</Max>
 		<Increment>2</Increment>
@@ -568,7 +579,7 @@
 		<GroupeCompetencesDerivees>Puissance Foudre</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>1000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Cobaltite</Catalyste>
 		<Min>20</Min>
 		<Max>30</Max>
@@ -585,7 +596,7 @@
 		<GroupeCompetencesDerivees>Puissance Foudre</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>3000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<Min>25</Min>
 		<Max>35</Max>
@@ -602,6 +613,7 @@
 		<GroupeCompetencesDerivees>Puissance Foudre</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>5000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>30</Min>
 		<Max>40</Max>
 		<Increment>2</Increment>
@@ -617,7 +629,7 @@
 		<GroupeCompetencesDerivees>Puissance Eau</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>1000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Cobaltite</Catalyste>
 		<Min>20</Min>
 		<Max>30</Max>
@@ -634,7 +646,7 @@
 		<GroupeCompetencesDerivees>Puissance Eau</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>3000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<Min>25</Min>
 		<Max>35</Max>
@@ -651,6 +663,7 @@
 		<GroupeCompetencesDerivees>Puissance Eau</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>5000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>30</Min>
 		<Max>40</Max>
 		<Increment>2</Increment>
@@ -666,7 +679,7 @@
 		<GroupeCompetencesDerivees>Puissance Air</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>1000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Cobaltite</Catalyste>
 		<Min>20</Min>
 		<Max>30</Max>
@@ -683,7 +696,7 @@
 		<GroupeCompetencesDerivees>Puissance Air</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>3000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<Min>25</Min>
 		<Max>35</Max>
@@ -700,6 +713,7 @@
 		<GroupeCompetencesDerivees>Puissance Air</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>5000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>30</Min>
 		<Max>40</Max>
 		<Increment>2</Increment>
@@ -715,7 +729,7 @@
 		<GroupeCompetencesDerivees>Puissance Terre</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>1000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Cobaltite</Catalyste>
 		<Min>20</Min>
 		<Max>30</Max>
@@ -732,6 +746,7 @@
 		<GroupeCompetencesDerivees>Puissance Terre</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>3000</PrixVente>
+		<Acquisition></Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<Min>25</Min>
 		<Max>35</Max>
@@ -748,6 +763,7 @@
 		<GroupeCompetencesDerivees>Puissance Terre</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>5000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>30</Min>
 		<Max>40</Max>
 		<Increment>2</Increment>
@@ -763,7 +779,7 @@
 		<GroupeCompetencesDerivees>Faiblesse réduite</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>30</Min>
 		<Max>45</Max>
@@ -780,6 +796,7 @@
 		<GroupeCompetencesDerivees>Faiblesse réduite</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>40</Min>
 		<Max>60</Max>
 		<Increment>2</Increment>
@@ -795,7 +812,7 @@
 		<GroupeCompetencesDerivees>Débilité réduite</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>30</Min>
 		<Max>45</Max>
@@ -812,6 +829,7 @@
 		<GroupeCompetencesDerivees>Débilité réduite</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>40</Min>
 		<Max>60</Max>
 		<Increment>2</Increment>
@@ -827,7 +845,7 @@
 		<GroupeCompetencesDerivees>Fragilité réduite</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>30</Min>
 		<Max>45</Max>
@@ -844,6 +862,7 @@
 		<GroupeCompetencesDerivees>Fragilité réduite</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>40</Min>
 		<Max>60</Max>
 		<Increment>2</Increment>
@@ -859,7 +878,7 @@
 		<GroupeCompetencesDerivees>Défaillance réduite</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>30</Min>
 		<Max>45</Max>
@@ -876,6 +895,7 @@
 		<GroupeCompetencesDerivees>Défaillance réduite</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>40</Min>
 		<Max>60</Max>
 		<Increment>2</Increment>
@@ -891,7 +911,7 @@
 		<GroupeCompetencesDerivees>Lenteur réduite</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>30</Min>
 		<Max>45</Max>
@@ -908,6 +928,7 @@
 		<GroupeCompetencesDerivees>Lenteur réduite</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>40</Min>
 		<Max>60</Max>
 		<Increment>2</Increment>
@@ -923,7 +944,7 @@
 		<GroupeCompetencesDerivees>Poison réduit</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>30</Min>
 		<Max>45</Max>
@@ -940,6 +961,7 @@
 		<GroupeCompetencesDerivees>Poison réduit</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>40</Min>
 		<Max>60</Max>
 		<Increment>2</Increment>
@@ -955,7 +977,7 @@
 		<GroupeCompetencesDerivees>Vulnérabilité réduite</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>30</Min>
 		<Max>45</Max>
@@ -972,6 +994,7 @@
 		<GroupeCompetencesDerivees>Vulnérabilité réduite</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>40</Min>
 		<Max>60</Max>
 		<Increment>2</Increment>
@@ -987,7 +1010,7 @@
 		<GroupeCompetencesDerivees>Malédiction réduite</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>30</Min>
 		<Max>45</Max>
@@ -1004,6 +1027,7 @@
 		<GroupeCompetencesDerivees>Malédiction réduite</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>40</Min>
 		<Max>60</Max>
 		<Increment>2</Increment>
@@ -1019,7 +1043,7 @@
 		<GroupeCompetencesDerivees>Supplice réduite</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>30</Min>
 		<Max>45</Max>
@@ -1036,6 +1060,7 @@
 		<GroupeCompetencesDerivees>Supplice réduite</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>40</Min>
 		<Max>60</Max>
 		<Increment>2</Increment>
@@ -1051,7 +1076,7 @@
 		<GroupeCompetencesDerivees>Oubli réduit</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>30</Min>
 		<Max>45</Max>
@@ -1068,6 +1093,7 @@
 		<GroupeCompetencesDerivees>Oubli réduit</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>40</Min>
 		<Max>60</Max>
 		<Increment>2</Increment>
@@ -1083,7 +1109,7 @@
 		<GroupeCompetencesDerivees>Stase réduite</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>30</Min>
 		<Max>45</Max>
@@ -1100,6 +1126,7 @@
 		<GroupeCompetencesDerivees>Stase réduite</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>40</Min>
 		<Max>60</Max>
 		<Increment>2</Increment>
@@ -1115,7 +1142,7 @@
 		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Le Bourlingueur</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>30</Min>
 		<Max>45</Max>
@@ -1132,6 +1159,7 @@
 		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>40</Min>
 		<Max>60</Max>
 		<Increment>2</Increment>
@@ -1147,7 +1175,7 @@
 		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
 		<PrixAchat>5000</PrixAchat>
 		<PrixVente>2500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Brin de Magie</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1164,6 +1192,7 @@
 		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1179,7 +1208,7 @@
 		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
 		<PrixAchat>5000</PrixAchat>
 		<PrixVente>2500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Brin de Magie</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1196,6 +1225,7 @@
 		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1211,7 +1241,7 @@
 		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
 		<PrixAchat>5000</PrixAchat>
 		<PrixVente>2500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Brin de Magie</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1228,6 +1258,7 @@
 		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1243,7 +1274,7 @@
 		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
 		<PrixAchat>5000</PrixAchat>
 		<PrixVente>2500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Brin de Magie</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1260,6 +1291,7 @@
 		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1275,7 +1307,7 @@
 		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
 		<PrixAchat>5000</PrixAchat>
 		<PrixVente>2500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Brin de Magie</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1292,6 +1324,7 @@
 		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1307,7 +1340,7 @@
 		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
 		<PrixAchat>5000</PrixAchat>
 		<PrixVente>2500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Brin de Magie</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1324,6 +1357,7 @@
 		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1339,7 +1373,7 @@
 		<GroupeCompetencesDerivees>Puissance Feu</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Brin de Magie</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1356,6 +1390,7 @@
 		<GroupeCompetencesDerivees>Puissance Feu</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1371,7 +1406,7 @@
 		<GroupeCompetencesDerivees>Puissance Glace</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Brin de Magie</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1388,6 +1423,7 @@
 		<GroupeCompetencesDerivees>Puissance Glace</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1403,7 +1439,7 @@
 		<GroupeCompetencesDerivees>Puissance Foudre</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Brin de Magie</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1420,6 +1456,7 @@
 		<GroupeCompetencesDerivees>Puissance Foudre</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1435,7 +1472,7 @@
 		<GroupeCompetencesDerivees>Puissance Eau</GroupeCompetencesDerivees>
 		<PrixAchat>3000</PrixAchat>
 		<PrixVente>1500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Brin de Magie</Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1452,6 +1489,7 @@
 		<GroupeCompetencesDerivees>Puissance Eau</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1467,7 +1505,7 @@
 		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>2500</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Pérovskite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1484,6 +1522,7 @@
 		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1499,7 +1538,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>15000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Scarlatium</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1516,6 +1555,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>40000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1531,7 +1571,7 @@
 		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
 		<PrixAchat>1000</PrixAchat>
 		<PrixVente>500</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Mogs en Stock</Acquisition>
 		<Catalyste>Rhodochrosite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1548,6 +1588,7 @@
 		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>1500</PrixVente>
+		<Acquisition></Acquisition>
 		<Catalyste>Cobaltite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1564,7 +1605,7 @@
 		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
 		<PrixAchat>6000</PrixAchat>
 		<PrixVente>3000</PrixVente>
-		<Acquisition>Boutique</Acquisition>
+		<Acquisition>Mogs en Stock</Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1580,7 +1621,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>10000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1596,7 +1637,7 @@
 		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>5000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1612,7 +1653,7 @@
 		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>3500</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1629,7 +1670,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>100000</PrixAchat>
 		<PrixVente>50000</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Mogs en Stock</Acquisition>
 		<Catalyste>Pierre de Mnar</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1646,6 +1687,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>125000</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1661,7 +1703,7 @@
 		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>2500</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1678,7 +1720,7 @@
 		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
 		<PrixAchat>10000</PrixAchat>
 		<PrixVente>5000</PrixVente>
-		<Acquisition>Boutique/Trésor</Acquisition>
+		<Acquisition>Mogs en Stock</Acquisition>
 		<Catalyste>Pierre de Mnar</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1695,7 +1737,7 @@
 		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>75000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1711,7 +1753,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>2500</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1727,7 +1769,7 @@
 		<GroupeCompetencesDerivees>Puissance Feu</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>7500</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Pierre de Mnar</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1744,7 +1786,7 @@
 		<GroupeCompetencesDerivees>Puissance Glace</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>7500</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Pierre de Mnar</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1761,7 +1803,7 @@
 		<GroupeCompetencesDerivees>Puissance Foudre</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>7500</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Pierre de Mnar</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1778,7 +1820,7 @@
 		<GroupeCompetencesDerivees>Puissance Eau</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>7500</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Pierre de Mnar</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1795,7 +1837,7 @@
 		<GroupeCompetencesDerivees>Puissance Air</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>7500</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Pierre de Mnar</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1812,7 +1854,7 @@
 		<GroupeCompetencesDerivees>Puissance Terre</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>7500</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Catalyste>Pierre de Mnar</Catalyste>
 		<Min>0</Min>
 		<Max>0</Max>
@@ -1829,6 +1871,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>22500</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1844,7 +1887,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>250000</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1860,7 +1903,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>120000</PrixAchat>
 		<PrixVente>60000</PrixVente>
-		<Acquisition>Boutique</Acquisition>
+		<Acquisition>Institut Sanctum</Acquisition>
 		<Catalyste>Uraninite</Catalyste>
 		<Min>10</Min>
 		<Max>25</Max>
@@ -1877,6 +1920,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>10</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
@@ -1892,6 +1936,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>10</PrixVente>
+		<Acquisition></Acquisition>
 		<Catalyste>Matière obscure</Catalyste>
 		<Min>20</Min>
 		<Max>25</Max>
@@ -1908,6 +1953,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>10</PrixVente>
+		<Acquisition></Acquisition>
 		<Min>25</Min>
 		<Max>30</Max>
 		<Increment>1</Increment>
@@ -1923,7 +1969,7 @@
 		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
 		<PrixAchat>0</PrixAchat>
 		<PrixVente>10</PrixVente>
-		<Acquisition>Trésor</Acquisition>
+		<Acquisition></Acquisition>
 		<Min>0</Min>
 		<Max>0</Max>
 		<Increment>0</Increment>
