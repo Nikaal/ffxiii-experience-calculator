@@ -1,0 +1,2841 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Armes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Arme>
+		<Identifiant>1</Identifiant>
+		<Nom>Pistolame Sanctum</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>2000</PrixAchat>
+		<PrixVente>1000</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>15</ForceMin>
+		<ForceMax>115</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>15</MagieMin>
+		<MagieMax>115</MagieMax>
+		<MagieIncrement>4</MagieIncrement>
+		<ExperienceBase>300</ExperienceBase>
+		<ExperienceIncrement>57</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>2</Identifiant>
+		<Nom>Pistolame Magnum</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>31</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>23</ForceMin>
+		<ForceMax>323</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>23</MagieMin>
+		<MagieMax>323</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>3</Identifiant>
+		<Nom>Oméga</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>12000</PrixVente>
+		<ForceMin>26</ForceMin>
+		<ForceMax>620</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>26</MagieMin>
+		<MagieMax>620</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>3300</ExperienceBase>
+		<ExperienceIncrement>297</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>4</Identifiant>
+		<Nom>Lame Eclaireur</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Attaques rapides</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
+		<PrixAchat>15000</PrixAchat>
+		<PrixVente>7500</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Adamante</Catalyste>
+		<ForceMin>8</ForceMin>
+		<ForceMax>48</ForceMax>
+		<ForceIncrement>2</ForceIncrement>
+		<MagieMin>8</MagieMin>
+		<MagieMax>48</MagieMax>
+		<MagieIncrement>2</MagieIncrement>
+		<ExperienceBase>1200</ExperienceBase>
+		<ExperienceIncrement>225</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>5</Identifiant>
+		<Nom>Lame Commando</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>9</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Attaques rapides 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>19500</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>13</ForceMin>
+		<ForceMax>133</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>13</MagieMin>
+		<MagieMax>133</MagieMax>
+		<MagieIncrement>3</MagieIncrement>
+		<ExperienceBase>3600</ExperienceBase>
+		<ExperienceIncrement>261</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>6</Identifiant>
+		<Nom>Oméga</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Attaques rapides 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>34125</PrixVente>
+		<ForceMin>18</ForceMin>
+		<ForceMax>315</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>18</MagieMin>
+		<MagieMax>315</MagieMax>
+		<MagieIncrement>3</MagieIncrement>
+		<ExperienceBase>3300</ExperienceBase>
+		<ExperienceIncrement>297</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>7</Identifiant>
+		<Nom>Cybersabre Alpha</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>4600</PrixAchat>
+		<PrixVente>2300</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>8</ForceMin>
+		<ForceMax>83</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>20</MagieMin>
+		<MagieMax>170</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>420</ExperienceBase>
+		<ExperienceIncrement>75</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>8</Identifiant>
+		<Nom>Cybersabre Bêta</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>61</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>9200</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>10</ForceMin>
+		<ForceMax>190</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>28</MagieMin>
+		<MagieMax>448</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>9</Identifiant>
+		<Nom>Oméga</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>29400</PrixVente>
+		<ForceMin>12</ForceMin>
+		<ForceMax>210</ForceMax>
+		<ForceIncrement>2</ForceIncrement>
+		<MagieMin>30</MagieMin>
+		<MagieMax>723</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>3300</ExperienceBase>
+		<ExperienceIncrement>297</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>10</Identifiant>
+		<Nom>Sabre Chevalier</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Vie et Soin</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Urgence</GroupeCompetencesDerivees>
+		<PrixAchat>20000</PrixAchat>
+		<PrixVente>10000</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<ForceMin>8</ForceMin>
+		<ForceMax>88</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>8</MagieMin>
+		<MagieMax>88</MagieMax>
+		<MagieIncrement>4</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>11</Identifiant>
+		<Nom>Sabre Paladin</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>8</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Vie et Soin 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Urgence</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>26000</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>25</ForceMin>
+		<ForceMax>225</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>25</MagieMin>
+		<MagieMax>225</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>3000</ExperienceBase>
+		<ExperienceIncrement>240</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>12</Identifiant>
+		<Nom>Oméga</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Vie et Soin 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>45500</PrixVente>
+		<ForceMin>25</ForceMin>
+		<ForceMax>520</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>25</MagieMin>
+		<MagieMax>520</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>3300</ExperienceBase>
+		<ExperienceIncrement>297</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>13</Identifiant>
+		<Nom>Gladius</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>26</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>7100</PrixAchat>
+		<PrixVente>3550</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>25</ForceMin>
+		<ForceMax>175</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>13</MagieMin>
+		<MagieMax>88</MagieMax>
+		<MagieIncrement>3</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>14</Identifiant>
+		<Nom>Catastrophe</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>61</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>14200</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>28</ForceMin>
+		<ForceMax>448</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>10</MagieMin>
+		<MagieMax>190</MagieMax>
+		<MagieIncrement>3</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>168</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>15</Identifiant>
+		<Nom>Oméga</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>45440</PrixVente>
+		<ForceMin>30</ForceMin>
+		<ForceMax>723</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>12</MagieMin>
+		<MagieMax>210</MagieMax>
+		<MagieIncrement>2</MagieIncrement>
+		<ExperienceBase>3300</ExperienceBase>
+		<ExperienceIncrement>297</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>16</Identifiant>
+		<Nom>Organix</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>2</Rang>
+		<NiveauMax>26</NiveauMax>
+		<ProprieteSpeciale>Membres de plomb</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
+		<PrixAchat>280000</PrixAchat>
+		<PrixVente>14000</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Cobaltite</Catalyste>
+		<ForceMin>37</ForceMin>
+		<ForceMax>187</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>37</MagieMin>
+		<MagieMax>187</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>300</ExperienceBase>
+		<ExperienceIncrement>42</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>17</Identifiant>
+		<Nom>Apocalypse</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>61</NiveauMax>
+		<ProprieteSpeciale>Membres d'acier</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>36400</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>50</ForceMin>
+		<ForceMax>410</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>50</MagieMin>
+		<MagieMax>410</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>18</Identifiant>
+		<Nom>Oméga</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Membres d'acier</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>63700</PrixVente>
+		<ForceMin>57</ForceMin>
+		<ForceMax>750</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>57</MagieMin>
+		<MagieMax>750</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>3300</ExperienceBase>
+		<ExperienceIncrement>297</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>19</Identifiant>
+		<Nom>Hauteclaire</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>20000</PrixAchat>
+		<PrixVente>10000</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>13</ForceMin>
+		<ForceMax>138</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>13</MagieMin>
+		<MagieMax>138</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>20</Identifiant>
+		<Nom>Durandal</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>61</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>26000</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>18</ForceMin>
+		<ForceMax>378</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>18</MagieMin>
+		<MagieMax>378</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>168</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>21</Identifiant>
+		<Nom>Oméga</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>45500</PrixVente>
+		<ForceMin>18</ForceMin>
+		<ForceMax>711</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>18</MagieMin>
+		<MagieMax>711</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>3300</ExperienceBase>
+		<ExperienceIncrement>297</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>22</Identifiant>
+		<Nom>Cœur-de-lion</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Chocs prématurés</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>28000</PrixAchat>
+		<PrixVente>14000</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<ForceMin>8</ForceMin>
+		<ForceMax>68</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>8</MagieMin>
+		<MagieMax>68</MagieMax>
+		<MagieIncrement>3</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>174</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>23</Identifiant>
+		<Nom>Ultima</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>8</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Chocs prématurés</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>36400</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>13</ForceMin>
+		<ForceMax>213</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>13</MagieMin>
+		<MagieMax>213</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>2600</ExperienceBase>
+		<ExperienceIncrement>232</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>24</Identifiant>
+		<Nom>Oméga</Nom>
+		<Personnage>Lightning</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Chocs prématurés</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>63700</PrixVente>
+		<ForceMin>13</ForceMin>
+		<ForceMax>508</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>13</MagieMin>
+		<MagieMax>508</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>3300</ExperienceBase>
+		<ExperienceIncrement>297</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>25</Identifiant>
+		<Nom>Vega</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>2000</PrixAchat>
+		<PrixVente>1000</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>12</ForceMin>
+		<ForceMax>137</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>14</MagieMin>
+		<MagieMax>139</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>300</ExperienceBase>
+		<ExperienceIncrement>57</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>26</Identifiant>
+		<Nom>Altaïr</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>61</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>20</ForceMin>
+		<ForceMax>380</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>30</MagieMin>
+		<MagieMax>390</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>27</Identifiant>
+		<Nom>Eclipse totale</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>12800</PrixVente>
+		<ForceMin>20</ForceMin>
+		<ForceMax>812</ForceMax>
+		<ForceIncrement>8</ForceIncrement>
+		<MagieMin>30</MagieMin>
+		<MagieMax>822</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>2640</ExperienceBase>
+		<ExperienceIncrement>363</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>28</Identifiant>
+		<Nom>Spica</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Renforts prolongés</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
+		<PrixAchat>14500</PrixAchat>
+		<PrixVente>7250</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<ForceMin>6</ForceMin>
+		<ForceMax>46</ForceMax>
+		<ForceIncrement>2</ForceIncrement>
+		<MagieMin>15</MagieMin>
+		<MagieMax>95</MagieMax>
+		<MagieIncrement>4</MagieIncrement>
+		<ExperienceBase>1200</ExperienceBase>
+		<ExperienceIncrement>225</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>29</Identifiant>
+		<Nom>Sirius</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>8</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Renforts prolongés 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>18850</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>20</ForceMin>
+		<ForceMax>140</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>20</MagieMin>
+		<MagieMax>220</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>2600</ExperienceBase>
+		<ExperienceIncrement>232</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>30</Identifiant>
+		<Nom>Eclipse totale</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Renforts prolongés 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>32987</PrixVente>
+		<ForceMin>20</ForceMin>
+		<ForceMax>713</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>20</MagieMin>
+		<MagieMax>911</MagieMax>
+		<MagieIncrement>9</MagieIncrement>
+		<ExperienceBase>2640</ExperienceBase>
+		<ExperienceIncrement>363</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>31</Identifiant>
+		<Nom>Deneb</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>3900</PrixAchat>
+		<PrixVente>1950</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>8</ForceMin>
+		<ForceMax>108</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>24</MagieMin>
+		<MagieMax>249</MagieMax>
+		<MagieIncrement>9</MagieIncrement>
+		<ExperienceBase>420</ExperienceBase>
+		<ExperienceIncrement>75</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>32</Identifiant>
+		<Nom>Canopus</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>61</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>7800</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>14</ForceMin>
+		<ForceMax>374</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>36</MagieMin>
+		<MagieMax>636</MagieMax>
+		<MagieIncrement>10</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>33</Identifiant>
+		<Nom>Eclipse totale</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>24960</PrixVente>
+		<ForceMin>14</ForceMin>
+		<ForceMax>608</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>36</MagieMin>
+		<MagieMax>1125</MagieMax>
+		<MagieIncrement>11</MagieIncrement>
+		<ExperienceBase>2640</ExperienceBase>
+		<ExperienceIncrement>363</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>34</Identifiant>
+		<Nom>Rigel</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>26</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>19000</PrixAchat>
+		<PrixVente>9500</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>10</ForceMin>
+		<ForceMax>160</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>15</MagieMin>
+		<MagieMax>165</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>35</Identifiant>
+		<Nom>Polaris</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>61</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>24700</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>16</ForceMin>
+		<ForceMax>496</ForceMax>
+		<ForceIncrement>8</ForceIncrement>
+		<MagieMin>24</MagieMin>
+		<MagieMax>504</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>168</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>36</Identifiant>
+		<Nom>Eclipse totale</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>43225</PrixVente>
+		<ForceMin>16</ForceMin>
+		<ForceMax>1006</ForceMax>
+		<ForceIncrement>10</ForceIncrement>
+		<MagieMin>24</MagieMin>
+		<MagieMax>1014</MagieMax>
+		<MagieIncrement>10</MagieIncrement>
+		<ExperienceBase>2640</ExperienceBase>
+		<ExperienceIncrement>363</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>37</Identifiant>
+		<Nom>Aldébaran</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>2</Rang>
+		<NiveauMax>26</NiveauMax>
+		<ProprieteSpeciale>Membres de plomb</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
+		<PrixAchat>263000</PrixAchat>
+		<PrixVente>13150</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Cobaltite</Catalyste>
+		<ForceMin>0</ForceMin>
+		<ForceMax>0</ForceMax>
+		<ForceIncrement>0</ForceIncrement>
+		<MagieMin>40</MagieMin>
+		<MagieMax>265</MagieMax>
+		<MagieIncrement>9</MagieIncrement>
+		<ExperienceBase>300</ExperienceBase>
+		<ExperienceIncrement>42</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>38</Identifiant>
+		<Nom>Sadamelik</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>61</NiveauMax>
+		<ProprieteSpeciale>Membres d'acier</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>34190</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>0</ForceMin>
+		<ForceMax>0</ForceMax>
+		<ForceIncrement>0</ForceIncrement>
+		<MagieMin>60</MagieMin>
+		<MagieMax>660</MagieMax>
+		<MagieIncrement>10</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>39</Identifiant>
+		<Nom>Eclipse totale</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Membres d'acier</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>59832</PrixVente>
+		<ForceMin>0</ForceMin>
+		<ForceMax>0</ForceMax>
+		<ForceIncrement>0</ForceIncrement>
+		<MagieMin>61</MagieMin>
+		<MagieMax>1150</MagieMax>
+		<MagieIncrement>11</MagieIncrement>
+		<ExperienceBase>2640</ExperienceBase>
+		<ExperienceIncrement>363</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>40</Identifiant>
+		<Nom>Pléiades</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<ProprieteSpeciale>Tigre de papier</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Réduction des dégâts</GroupeCompetencesDerivees>
+		<PrixAchat>22000</PrixAchat>
+		<PrixVente>11000</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>40</ForceMin>
+		<ForceMax>340</ForceMax>
+		<ForceIncrement>12</ForceIncrement>
+		<MagieMin>0</MagieMin>
+		<MagieMax>0</MagieMax>
+		<MagieIncrement>0</MagieIncrement>
+		<ExperienceBase>420</ExperienceBase>
+		<ExperienceIncrement>75</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>41</Identifiant>
+		<Nom>Hyades</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>61</NiveauMax>
+		<ProprieteSpeciale>Tigre de soie</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Réduction des dégâts</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>28600</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>60</ForceMin>
+		<ForceMax>1140</ForceMax>
+		<ForceIncrement>18</ForceIncrement>
+		<MagieMin>0</MagieMin>
+		<MagieMax>0</MagieMax>
+		<MagieIncrement>0</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>42</Identifiant>
+		<Nom>Eclipse totale</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Tigre de soie</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>50050</PrixVente>
+		<ForceMin>61</ForceMin>
+		<ForceMax>1150</ForceMax>
+		<ForceIncrement>11</ForceIncrement>
+		<MagieMin>0</MagieMin>
+		<MagieMax>0</MagieMax>
+		<MagieIncrement>0</MagieIncrement>
+		<ExperienceBase>2640</ExperienceBase>
+		<ExperienceIncrement>363</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>43</Identifiant>
+		<Nom>Antarès</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Combos améliorés</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
+		<PrixAchat>22000</PrixAchat>
+		<PrixVente>11000</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>12</ForceMin>
+		<ForceMax>92</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>18</MagieMin>
+		<MagieMax>98</MagieMax>
+		<MagieIncrement>4</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>44</Identifiant>
+		<Nom>Formalhaut</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Combos améliorés 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>28600</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>16</ForceMin>
+		<ForceMax>216</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>22</MagieMin>
+		<MagieMax>222</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>168</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>45</Identifiant>
+		<Nom>Eclipse totale</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Combos améliorés 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>50050</PrixVente>
+		<ForceMin>16</ForceMin>
+		<ForceMax>610</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>22</MagieMin>
+		<MagieMax>616</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>2640</ExperienceBase>
+		<ExperienceIncrement>363</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>46</Identifiant>
+		<Nom>Procyon</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Chocs prolongés</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>30000</PrixAchat>
+		<PrixVente>15000</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Matière obscure</Catalyste>
+		<ForceMin>14</ForceMin>
+		<ForceMax>94</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>9</MagieMin>
+		<MagieMax>49</MagieMax>
+		<MagieIncrement>2</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>174</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>47</Identifiant>
+		<Nom>Bételgeuse</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>10</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Chocs prolongés 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>39000</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>20</ForceMin>
+		<ForceMax>260</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>18</MagieMin>
+		<MagieMax>138</MagieMax>
+		<MagieIncrement>3</MagieIncrement>
+		<ExperienceBase>2600</ExperienceBase>
+		<ExperienceIncrement>260</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>48</Identifiant>
+		<Nom>Eclipse totale</Nom>
+		<Personnage>Sazh</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Chocs prolongés 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>68250</PrixVente>
+		<ForceMin>26</ForceMin>
+		<ForceMax>620</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>18</MagieMin>
+		<MagieMax>414</MagieMax>
+		<MagieIncrement>4</MagieIncrement>
+		<ExperienceBase>2640</ExperienceBase>
+		<ExperienceIncrement>363</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>49</Identifiant>
+		<Nom>Ours brun</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>1800</PrixAchat>
+		<PrixVente>900</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>15</ForceMin>
+		<ForceMax>140</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>15</MagieMin>
+		<MagieMax>140</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>300</ExperienceBase>
+		<ExperienceIncrement>57</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>50</Identifiant>
+		<Nom>Ours polaire</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>61</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>3600</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>23</ForceMin>
+		<ForceMax>383</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>23</MagieMin>
+		<MagieMax>383</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>51</Identifiant>
+		<Nom>Ange gardien</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>11520</PrixVente>
+		<ForceMin>24</ForceMin>
+		<ForceMax>717</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>24</MagieMin>
+		<MagieMax>717</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>3333</ExperienceBase>
+		<ExperienceIncrement>286</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>52</Identifiant>
+		<Nom>Cœur de chevalier</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Gardes améliorées</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Santé de fer</GroupeCompetencesDerivees>
+		<PrixAchat>20000</PrixAchat>
+		<PrixVente>10000</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<ForceMin>8</ForceMin>
+		<ForceMax>88</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>8</MagieMin>
+		<MagieMax>88</MagieMax>
+		<MagieIncrement>4</MagieIncrement>
+		<ExperienceBase>1200</ExperienceBase>
+		<ExperienceIncrement>225</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>53</Identifiant>
+		<Nom>Cœur de paladin</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>8</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Gardes améliorées 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Santé de fer</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>26000</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>13</ForceMin>
+		<ForceMax>213</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>13</MagieMin>
+		<MagieMax>213</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>2600</ExperienceBase>
+		<ExperienceIncrement>232</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>54</Identifiant>
+		<Nom>Ange gardien</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Gardes améliorées 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>45500</PrixVente>
+		<ForceMin>15</ForceMin>
+		<ForceMax>510</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>15</MagieMin>
+		<MagieMax>510</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>3333</ExperienceBase>
+		<ExperienceIncrement>286</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>55</Identifiant>
+		<Nom>Cœur de rebelle</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>26</NiveauMax>
+		<ProprieteSpeciale>Ressources</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Urgence</GroupeCompetencesDerivees>
+		<PrixAchat>11000</PrixAchat>
+		<PrixVente>5500</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>5</ForceMin>
+		<ForceMax>65</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>10</MagieMin>
+		<MagieMax>70</MagieMax>
+		<MagieIncrement>3</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>56</Identifiant>
+		<Nom>Cœur de brave</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>61</NiveauMax>
+		<ProprieteSpeciale>Ressources 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Urgence</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>14300</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>8</ForceMin>
+		<ForceMax>248</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>17</MagieMin>
+		<MagieMax>257</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>168</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>57</Identifiant>
+		<Nom>Ange gardien</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Ressources 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>25025</PrixVente>
+		<ForceMin>8</ForceMin>
+		<ForceMax>602</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>17</MagieMin>
+		<MagieMax>611</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>3333</ExperienceBase>
+		<ExperienceIncrement>286</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>58</Identifiant>
+		<Nom>Cercle de force</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>26</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>4500</PrixAchat>
+		<PrixVente>2250</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<ForceMin>23</ForceMin>
+		<ForceMax>198</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>13</MagieMin>
+		<MagieMax>38</MagieMax>
+		<MagieIncrement>1</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>174</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>59</Identifiant>
+		<Nom>Cercle de berserk</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>8</Rang>
+		<NiveauMax>61</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>9000</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>33</ForceMin>
+		<ForceMax>513</ForceMax>
+		<ForceIncrement>8</ForceIncrement>
+		<MagieMin>5</MagieMin>
+		<MagieMax>125</MagieMax>
+		<MagieIncrement>2</MagieIncrement>
+		<ExperienceBase>2600</ExperienceBase>
+		<ExperienceIncrement>232</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>60</Identifiant>
+		<Nom>Ange gardien</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>28800</PrixVente>
+		<ForceMin>34</ForceMin>
+		<ForceMax>925</ForceMax>
+		<ForceIncrement>9</ForceIncrement>
+		<MagieMin>4</MagieMin>
+		<MagieMax>202</MagieMax>
+		<MagieIncrement>2</MagieIncrement>
+		<ExperienceBase>3333</ExperienceBase>
+		<ExperienceIncrement>286</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>61</Identifiant>
+		<Nom>Cercle spirituel</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Déclin physique</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Magie ultime</GroupeCompetencesDerivees>
+		<PrixAchat>25000</PrixAchat>
+		<PrixVente>12500</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>0</ForceMin>
+		<ForceMax>0</ForceMax>
+		<ForceIncrement>0</ForceIncrement>
+		<MagieMin>30</MagieMin>
+		<MagieMax>130</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>62</Identifiant>
+		<Nom>Ame de magistère</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Baisse physique</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Magie ultime</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>32500</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>0</ForceMin>
+		<ForceMax>0</ForceMax>
+		<ForceIncrement>0</ForceIncrement>
+		<MagieMin>60</MagieMin>
+		<MagieMax>300</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>168</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>63</Identifiant>
+		<Nom>Ange gardien</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Baisse physique</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>56875</PrixVente>
+		<ForceMin>0</ForceMin>
+		<ForceMax>0</ForceMax>
+		<ForceIncrement>0</ForceIncrement>
+		<MagieMin>60</MagieMin>
+		<MagieMax>1050</MagieMax>
+		<MagieIncrement>10</MagieIncrement>
+		<ExperienceBase>3333</ExperienceBase>
+		<ExperienceIncrement>286</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>64</Identifiant>
+		<Nom>Cercle rituel</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>26</NiveauMax>
+		<ProprieteSpeciale>Tigre de papier</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Réduction des dégâts</GroupeCompetencesDerivees>
+		<PrixAchat>210000</PrixAchat>
+		<PrixVente>10500</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<ForceMin>41</ForceMin>
+		<ForceMax>266</ForceMax>
+		<ForceIncrement>9</ForceIncrement>
+		<MagieMin>41</MagieMin>
+		<MagieMax>266</MagieMax>
+		<MagieIncrement>9</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>174</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>65</Identifiant>
+		<Nom>Ame indomptable</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>8</Rang>
+		<NiveauMax>61</NiveauMax>
+		<ProprieteSpeciale>Tigre de soie</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Réduction des dégâts</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>27300</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>25</ForceMin>
+		<ForceMax>565</ForceMax>
+		<ForceIncrement>9</ForceIncrement>
+		<MagieMin>21</MagieMin>
+		<MagieMax>565</MagieMax>
+		<MagieIncrement>9</MagieIncrement>
+		<ExperienceBase>2600</ExperienceBase>
+		<ExperienceIncrement>232</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>66</Identifiant>
+		<Nom>Ange gardien</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Tigre de soie</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>47775</PrixVente>
+		<ForceMin>30</ForceMin>
+		<ForceMax>1020</ForceMax>
+		<ForceIncrement>10</ForceIncrement>
+		<MagieMin>30</MagieMin>
+		<MagieMax>1020</MagieMax>
+		<MagieIncrement>10</MagieIncrement>
+		<ExperienceBase>3333</ExperienceBase>
+		<ExperienceIncrement>286</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>67</Identifiant>
+		<Nom>Soleil ardent</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>21000</PrixAchat>
+		<PrixVente>10500</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>18</ForceMin>
+		<ForceMax>168</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>3</MagieMin>
+		<MagieMax>53</MagieMax>
+		<MagieIncrement>2</MagieIncrement>
+		<ExperienceBase>420</ExperienceBase>
+		<ExperienceIncrement>75</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>68</Identifiant>
+		<Nom>Soleil de minuit</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>61</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>27300</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>23</ForceMin>
+		<ForceMax>503</ForceMax>
+		<ForceIncrement>8</ForceIncrement>
+		<MagieMin>6</MagieMin>
+		<MagieMax>126</MagieMax>
+		<MagieIncrement>2</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>69</Identifiant>
+		<Nom>Ange gardien</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>47775</PrixVente>
+		<ForceMin>23</ForceMin>
+		<ForceMax>815</ForceMax>
+		<ForceIncrement>8</ForceIncrement>
+		<MagieMin>7</MagieMin>
+		<MagieMax>205</MagieMax>
+		<MagieIncrement>2</MagieIncrement>
+		<ExperienceBase>3333</ExperienceBase>
+		<ExperienceIncrement>286</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>70</Identifiant>
+		<Nom>Umbra</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Remparts améliorés</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>32600</PrixAchat>
+		<PrixVente>16300</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Adamante</Catalyste>
+		<ForceMin>13</ForceMin>
+		<ForceMax>73</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>20</MagieMin>
+		<MagieMax>120</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>1200</ExperienceBase>
+		<ExperienceIncrement>225</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>71</Identifiant>
+		<Nom>Solaris</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>9</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Remparts améliorés 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>42380</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>15</ForceMin>
+		<ForceMax>175</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>25</MagieMin>
+		<MagieMax>265</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>3600</ExperienceBase>
+		<ExperienceIncrement>261</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>72</Identifiant>
+		<Nom>Ange gardien</Nom>
+		<Personnage>Snow</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Remparts améliorés 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>74165</PrixVente>
+		<ForceMin>14</ForceMin>
+		<ForceMax>410</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>26</MagieMin>
+		<MagieMax>620</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>3333</ExperienceBase>
+		<ExperienceIncrement>286</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>73</Identifiant>
+		<Nom>Boomerang</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Dernier rempart</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Urgence</GroupeCompetencesDerivees>
+		<PrixAchat>10000</PrixAchat>
+		<PrixVente>5000</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>18</ForceMin>
+		<ForceMax>98</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>12</MagieMin>
+		<MagieMax>72</MagieMax>
+		<MagieIncrement>3</MagieIncrement>
+		<ExperienceBase>400</ExperienceBase>
+		<ExperienceIncrement>76</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>74</Identifiant>
+		<Nom>Fend-la-bise</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Dernier rempart 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Urgence</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>13000</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>31</ForceMin>
+		<ForceMax>231</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>45</MagieMin>
+		<MagieMax>205</MagieMax>
+		<MagieIncrement>4</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>168</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>75</Identifiant>
+		<Nom>Nuë</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Dernier rempart 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>28160</PrixVente>
+		<ForceMin>31</ForceMin>
+		<ForceMax>526</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>45</MagieMin>
+		<MagieMax>441</MagieMax>
+		<MagieIncrement>4</MagieIncrement>
+		<ExperienceBase>3850</ExperienceBase>
+		<ExperienceIncrement>242</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>76</Identifiant>
+		<Nom>Œil-de-faucon</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>4400</PrixAchat>
+		<PrixVente>2200</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>2</ForceMin>
+		<ForceMax>27</ForceMax>
+		<ForceIncrement>1</ForceIncrement>
+		<MagieMin>18</MagieMin>
+		<MagieMax>193</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>420</ExperienceBase>
+		<ExperienceIncrement>75</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>77</Identifiant>
+		<Nom>Serre-d'aigle</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>61</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>8800</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>4</ForceMin>
+		<ForceMax>124</ForceMax>
+		<ForceIncrement>2</ForceIncrement>
+		<MagieMin>26</MagieMin>
+		<MagieMax>506</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>78</Identifiant>
+		<Nom>Nuë</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>22750</PrixVente>
+		<ForceMin>4</ForceMin>
+		<ForceMax>202</ForceMax>
+		<ForceIncrement>2</ForceIncrement>
+		<MagieMin>26</MagieMin>
+		<MagieMax>917</MagieMax>
+		<MagieIncrement>9</MagieIncrement>
+		<ExperienceBase>3850</ExperienceBase>
+		<ExperienceIncrement>242</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>79</Identifiant>
+		<Nom>Otshirvani</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Recharges améliorées</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
+		<PrixAchat>28200</PrixAchat>
+		<PrixVente>14100</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<ForceMin>6</ForceMin>
+		<ForceMax>66</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>14</MagieMin>
+		<MagieMax>114</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>1200</ExperienceBase>
+		<ExperienceIncrement>225</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>80</Identifiant>
+		<Nom>Urubustin</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>8</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Recharges améliorées 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>36660</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>18</ForceMin>
+		<ForceMax>178</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>20</MagieMin>
+		<MagieMax>260</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>2600</ExperienceBase>
+		<ExperienceIncrement>232</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>81</Identifiant>
+		<Nom>Nuë</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Recharges améliorées 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>64155</PrixVente>
+		<ForceMin>18</ForceMin>
+		<ForceMax>513</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>20</MagieMin>
+		<MagieMax>713</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>3850</ExperienceBase>
+		<ExperienceIncrement>242</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>82</Identifiant>
+		<Nom>Ninurta</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>21</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>2800</PrixAchat>
+		<PrixVente>1400</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>12</ForceMin>
+		<ForceMax>137</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>12</MagieMin>
+		<MagieMax>137</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>420</ExperienceBase>
+		<ExperienceIncrement>75</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>83</Identifiant>
+		<Nom>Jatayu</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>41</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>5600</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>18</ForceMin>
+		<ForceMax>378</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>18</MagieMin>
+		<MagieMax>378</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>84</Identifiant>
+		<Nom>Nuë</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>17920</PrixVente>
+		<ForceMin>18</ForceMin>
+		<ForceMax>612</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>18</MagieMin>
+		<MagieMax>612</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>3850</ExperienceBase>
+		<ExperienceIncrement>242</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>85</Identifiant>
+		<Nom>Vidofnir</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Défenses prolongées</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
+		<PrixAchat>16900</PrixAchat>
+		<PrixVente>8450</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<ForceMin>6</ForceMin>
+		<ForceMax>46</ForceMax>
+		<ForceIncrement>2</ForceIncrement>
+		<MagieMin>14</MagieMin>
+		<MagieMax>134</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>1200</ExperienceBase>
+		<ExperienceIncrement>225</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>86</Identifiant>
+		<Nom>Hraesvelg</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>8</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Défenses prolongées 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>21970</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>8</ForceMin>
+		<ForceMax>128</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>20</MagieMin>
+		<MagieMax>300</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>2600</ExperienceBase>
+		<ExperienceIncrement>232</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>87</Identifiant>
+		<Nom>Nuë</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Défenses prolongées 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>38447</PrixVente>
+		<ForceMin>8</ForceMin>
+		<ForceMax>305</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>20</MagieMin>
+		<MagieMax>713</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>3850</ExperienceBase>
+		<ExperienceIncrement>242</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>88</Identifiant>
+		<Nom>Simurgh</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Déclin magique</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Physique ultime</GroupeCompetencesDerivees>
+		<PrixAchat>21200</PrixAchat>
+		<PrixVente>10600</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>28</ForceMin>
+		<ForceMax>168</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>0</MagieMin>
+		<MagieMax>0</MagieMax>
+		<MagieIncrement>0</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>89</Identifiant>
+		<Nom>Tezcatlipoca</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Baisse magique</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Physique ultime</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>27560</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>35</ForceMin>
+		<ForceMax>395</ForceMax>
+		<ForceIncrement>9</ForceIncrement>
+		<MagieMin>0</MagieMin>
+		<MagieMax>0</MagieMax>
+		<MagieIncrement>0</MagieIncrement>
+		<ExperienceBase>252</ExperienceBase>
+		<ExperienceIncrement>232</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>90</Identifiant>
+		<Nom>Nuë</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Baisse magique</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>48230</PrixVente>
+		<ForceMin>35</ForceMin>
+		<ForceMax>926</ForceMax>
+		<ForceIncrement>9</ForceIncrement>
+		<MagieMin>0</MagieMin>
+		<MagieMax>0</MagieMax>
+		<MagieIncrement>0</MagieIncrement>
+		<ExperienceBase>3850</ExperienceBase>
+		<ExperienceIncrement>242</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>91</Identifiant>
+		<Nom>Malphas</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<ProprieteSpeciale>Tigre de papier</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Réduction des dégâts</GroupeCompetencesDerivees>
+		<PrixAchat>198000</PrixAchat>
+		<PrixVente>9900</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>30</ForceMin>
+		<ForceMax>205</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>30</MagieMin>
+		<MagieMax>205</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>420</ExperienceBase>
+		<ExperienceIncrement>75</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>92</Identifiant>
+		<Nom>Naberius</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>61</NiveauMax>
+		<ProprieteSpeciale>Tigre de soie</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Réduction des dégâts</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>25740</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>40</ForceMin>
+		<ForceMax>520</ForceMax>
+		<ForceIncrement>8</ForceIncrement>
+		<MagieMin>40</MagieMin>
+		<MagieMax>520</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>93</Identifiant>
+		<Nom>Nuë</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Tigre de soie</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>45045</PrixVente>
+		<ForceMin>40</ForceMin>
+		<ForceMax>832</ForceMax>
+		<ForceIncrement>8</ForceIncrement>
+		<MagieMin>40</MagieMin>
+		<MagieMax>832</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>3850</ExperienceBase>
+		<ExperienceIncrement>242</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>94</Identifiant>
+		<Nom>Alicanto</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>26</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>18000</PrixAchat>
+		<PrixVente>9000</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>10</ForceMin>
+		<ForceMax>110</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>10</MagieMin>
+		<MagieMax>110</MagieMax>
+		<MagieIncrement>4</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>95</Identifiant>
+		<Nom>Caladrius</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>61</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>23400</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>14</ForceMin>
+		<ForceMax>374</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>14</MagieMin>
+		<MagieMax>374</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>168</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>96</Identifiant>
+		<Nom>Nuë</Nom>
+		<Personnage>Hope</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>40950</PrixVente>
+		<ForceMin>14</ForceMin>
+		<ForceMax>608</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>14</MagieMin>
+		<MagieMax>608</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>3850</ExperienceBase>
+		<ExperienceIncrement>242</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>97</Identifiant>
+		<Nom>Canne entravante</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>2500</PrixAchat>
+		<PrixVente>1250</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>18</ForceMin>
+		<ForceMax>168</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>12</MagieMin>
+		<MagieMax>37</MagieMax>
+		<MagieIncrement>1</MagieIncrement>
+		<ExperienceBase>300</ExperienceBase>
+		<ExperienceIncrement>57</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>98</Identifiant>
+		<Nom>Canne de chasseur</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>61</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>5000</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>22</ForceMin>
+		<ForceMax>442</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>18</MagieMin>
+		<MagieMax>138</MagieMax>
+		<MagieIncrement>2</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>99</Identifiant>
+		<Nom>Nirvana</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>16000</PrixVente>
+		<ForceMin>22</ForceMin>
+		<ForceMax>715</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>18</MagieMin>
+		<MagieMax>216</MagieMax>
+		<MagieIncrement>2</MagieIncrement>
+		<ExperienceBase>3740</ExperienceBase>
+		<ExperienceIncrement>308</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>100</Identifiant>
+		<Nom>Griffes-de-tigre</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>2</Rang>
+		<NiveauMax>26</NiveauMax>
+		<ProprieteSpeciale>Membres de plomb</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
+		<PrixAchat>300000</PrixAchat>
+		<PrixVente>15000</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Cobaltite</Catalyste>
+		<ForceMin>23</ForceMin>
+		<ForceMax>198</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>23</MagieMin>
+		<MagieMax>198</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>300</ExperienceBase>
+		<ExperienceIncrement>42</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>101</Identifiant>
+		<Nom>Crocs-de-vouivre</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>61</NiveauMax>
+		<ProprieteSpeciale>Membres d'acier</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>39000</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>36</ForceMin>
+		<ForceMax>516</ForceMax>
+		<ForceIncrement>8</ForceIncrement>
+		<MagieMin>36</MagieMin>
+		<MagieMax>516</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>102</Identifiant>
+		<Nom>Nirvana</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Membres d'acier</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>68250</PrixVente>
+		<ForceMin>36</ForceMin>
+		<ForceMax>828</ForceMax>
+		<ForceIncrement>8</ForceIncrement>
+		<MagieMin>36</MagieMin>
+		<MagieMax>828</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>3740</ExperienceBase>
+		<ExperienceIncrement>308</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>103</Identifiant>
+		<Nom>Bâton de guérisseur</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Soins améliorés</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Santé de fer</GroupeCompetencesDerivees>
+		<PrixAchat>19800</PrixAchat>
+		<PrixVente>9900</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Adamante</Catalyste>
+		<ForceMin>8</ForceMin>
+		<ForceMax>48</ForceMax>
+		<ForceIncrement>2</ForceIncrement>
+		<MagieMin>8</MagieMin>
+		<MagieMax>48</MagieMax>
+		<MagieIncrement>2</MagieIncrement>
+		<ExperienceBase>2000</ExperienceBase>
+		<ExperienceIncrement>125</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>104</Identifiant>
+		<Nom>Bâton d'archiatre</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>9</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Soins améliorés 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Santé de fer</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>25740</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>20</ForceMin>
+		<ForceMax>180</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>20</MagieMin>
+		<MagieMax>180</MagieMax>
+		<MagieIncrement>4</MagieIncrement>
+		<ExperienceBase>2115</ExperienceBase>
+		<ExperienceIncrement>252</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>105</Identifiant>
+		<Nom>Nirvana</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Soins améliorés 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>45045</PrixVente>
+		<ForceMin>28</ForceMin>
+		<ForceMax>424</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>28</MagieMin>
+		<MagieMax>424</MagieMax>
+		<MagieIncrement>4</MagieIncrement>
+		<ExperienceBase>3740</ExperienceBase>
+		<ExperienceIncrement>308</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>106</Identifiant>
+		<Nom>Bâton nacré</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>2300</PrixAchat>
+		<PrixVente>1150</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>2</ForceMin>
+		<ForceMax>27</ForceMax>
+		<ForceIncrement>1</ForceIncrement>
+		<MagieMin>15</MagieMin>
+		<MagieMax>140</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>420</ExperienceBase>
+		<ExperienceIncrement>75</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>107</Identifiant>
+		<Nom>Bâton irisé</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>61</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4600</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>3</ForceMin>
+		<ForceMax>123</ForceMax>
+		<ForceIncrement>2</ForceIncrement>
+		<MagieMin>21</MagieMin>
+		<MagieMax>381</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>108</Identifiant>
+		<Nom>Nirvana</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>14720</PrixVente>
+		<ForceMin>3</ForceMin>
+		<ForceMax>201</ForceMax>
+		<ForceIncrement>2</ForceIncrement>
+		<MagieMin>21</MagieMin>
+		<MagieMax>912</MagieMax>
+		<MagieIncrement>9</MagieIncrement>
+		<ExperienceBase>3740</ExperienceBase>
+		<ExperienceIncrement>308</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>109</Identifiant>
+		<Nom>Canne épineuse</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>6</ForceMin>
+		<ForceMax>131</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>6</MagieMin>
+		<MagieMax>131</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>420</ExperienceBase>
+		<ExperienceIncrement>75</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>110</Identifiant>
+		<Nom>Canne Orochi</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>61</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>6000</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>16</ForceMin>
+		<ForceMax>436</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>16</MagieMin>
+		<MagieMax>436</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>111</Identifiant>
+		<Nom>Nirvana</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>19200</PrixVente>
+		<ForceMin>16</ForceMin>
+		<ForceMax>709</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>16</MagieMin>
+		<MagieMax>709</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>3740</ExperienceBase>
+		<ExperienceIncrement>308</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>112</Identifiant>
+		<Nom>Mistiltein</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Force du désespoir</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Urgence</GroupeCompetencesDerivees>
+		<PrixAchat>11000</PrixAchat>
+		<PrixVente>5500</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<ForceMin>5</ForceMin>
+		<ForceMax>65</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>11</MagieMin>
+		<MagieMax>131</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>1200</ExperienceBase>
+		<ExperienceIncrement>225</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>113</Identifiant>
+		<Nom>Canne des Erinyes</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>8</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Force du désespoir 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Urgence</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>14300</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>7</ForceMin>
+		<ForceMax>167</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>15</MagieMin>
+		<MagieMax>335</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>2600</ExperienceBase>
+		<ExperienceIncrement>232</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>114</Identifiant>
+		<Nom>Nirvana</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Force du désespoir 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>25025</PrixVente>
+		<ForceMin>7</ForceMin>
+		<ForceMax>403</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>15</MagieMin>
+		<MagieMax>807</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>3740</ExperienceBase>
+		<ExperienceIncrement>308</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>115</Identifiant>
+		<Nom>Sceptre Belladone</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Affaiblissements précis</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
+		<PrixAchat>31200</PrixAchat>
+		<PrixVente>15600</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>5</ForceMin>
+		<ForceMax>65</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>11</MagieMin>
+		<MagieMax>131</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>116</Identifiant>
+		<Nom>Sceptre Morbol</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Affaiblissements précis 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>40560</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>7</ForceMin>
+		<ForceMax>167</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>15</MagieMin>
+		<MagieMax>335</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>168</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>117</Identifiant>
+		<Nom>Nirvana</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Affaiblissements précis 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>70980</PrixVente>
+		<ForceMin>7</ForceMin>
+		<ForceMax>403</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>15</MagieMin>
+		<MagieMax>807</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>3740</ExperienceBase>
+		<ExperienceIncrement>308</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>118</Identifiant>
+		<Nom>Laevateinn</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>26</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>24000</PrixAchat>
+		<PrixVente>12000</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>5</ForceMin>
+		<ForceMax>80</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>11</MagieMin>
+		<MagieMax>161</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>119</Identifiant>
+		<Nom>Abraxas</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>61</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>31200</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>7</ForceMin>
+		<ForceMax>247</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>15</MagieMin>
+		<MagieMax>495</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>168</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>120</Identifiant>
+		<Nom>Nirvana</Nom>
+		<Personnage>Vanille</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>54600</PrixVente>
+		<ForceMin>7</ForceMin>
+		<ForceMax>403</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>15</MagieMin>
+		<MagieMax>807</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>3740</ExperienceBase>
+		<ExperienceIncrement>308</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>121</Identifiant>
+		<Nom>Lance papillon</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>4500</PrixAchat>
+		<PrixVente>2250</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>55</ForceMin>
+		<ForceMax>130</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>35</MagieMin>
+		<MagieMax>85</MagieMax>
+		<MagieIncrement>2</MagieIncrement>
+		<ExperienceBase>300</ExperienceBase>
+		<ExperienceIncrement>57</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>122</Identifiant>
+		<Nom>Vouge</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>61</NiveauMax>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>9000</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>60</ForceMin>
+		<ForceMax>300</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>17</MagieMin>
+		<MagieMax>137</MagieMax>
+		<MagieIncrement>2</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>123</Identifiant>
+		<Nom>Lance de Kaïn</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>28800</PrixVente>
+		<ForceMin>60</ForceMin>
+		<ForceMax>753</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>17</MagieMin>
+		<MagieMax>314</MagieMax>
+		<MagieIncrement>3</MagieIncrement>
+		<ExperienceBase>4400</ExperienceBase>
+		<ExperienceIncrement>275</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>124</Identifiant>
+		<Nom>Lance Draken</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Déclin magique</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Physique ultime</GroupeCompetencesDerivees>
+		<PrixAchat>230000</PrixAchat>
+		<PrixVente>11500</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>39</ForceMin>
+		<ForceMax>179</ForceMax>
+		<ForceIncrement>7</ForceIncrement>
+		<MagieMin>0</MagieMin>
+		<MagieMax>0</MagieMax>
+		<MagieIncrement>0</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>125</Identifiant>
+		<Nom>Corne-de-dragon</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Baisse magique</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Physique ultime</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>29900</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>65</ForceMin>
+		<ForceMax>385</ForceMax>
+		<ForceIncrement>8</ForceIncrement>
+		<MagieMin>0</MagieMin>
+		<MagieMax>0</MagieMax>
+		<MagieIncrement>0</MagieIncrement>
+		<ExperienceBase>2076</ExperienceBase>
+		<ExperienceIncrement>138</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>126</Identifiant>
+		<Nom>Lance de Kaïn</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Baisse magique</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>52325</PrixVente>
+		<ForceMin>71</ForceMin>
+		<ForceMax>962</ForceMax>
+		<ForceIncrement>9</ForceIncrement>
+		<MagieMin>0</MagieMin>
+		<MagieMax>0</MagieMax>
+		<MagieIncrement>0</MagieIncrement>
+		<ExperienceBase>4400</ExperienceBase>
+		<ExperienceIncrement>275</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>127</Identifiant>
+		<Nom>Pertuisane</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>3</Rang>
+		<NiveauMax>26</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>6600</PrixAchat>
+		<PrixVente>3300</PrixVente>
+		<Acquisition>Aux armes</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<ForceMin>6</ForceMin>
+		<ForceMax>31</ForceMax>
+		<ForceIncrement>1</ForceIncrement>
+		<MagieMin>39</MagieMin>
+		<MagieMax>189</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>420</ExperienceBase>
+		<ExperienceIncrement>75</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>128</Identifiant>
+		<Nom>Rhomphaia</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>61</NiveauMax>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>13200</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>10</ForceMin>
+		<ForceMax>130</ForceMax>
+		<ForceIncrement>2</ForceIncrement>
+		<MagieMin>47</MagieMin>
+		<MagieMax>467</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>1730</ExperienceBase>
+		<ExperienceIncrement>115</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>129</Identifiant>
+		<Nom>Lance de Kaïn</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>42240</PrixVente>
+		<ForceMin>10</ForceMin>
+		<ForceMax>307</ForceMax>
+		<ForceIncrement>3</ForceIncrement>
+		<MagieMin>47</MagieMin>
+		<MagieMax>839</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>4400</ExperienceBase>
+		<ExperienceIncrement>275</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>130</Identifiant>
+		<Nom>Lance de shaman</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Déclin physique</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Magie ultime</GroupeCompetencesDerivees>
+		<PrixAchat>23000</PrixAchat>
+		<PrixVente>11500</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>0</ForceMin>
+		<ForceMax>0</ForceMax>
+		<ForceIncrement>0</ForceIncrement>
+		<MagieMin>47</MagieMin>
+		<MagieMax>187</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>131</Identifiant>
+		<Nom>Lance d'hérétique</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Baisse physique</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Magie ultime</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>29900</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>0</ForceMin>
+		<ForceMax>0</ForceMax>
+		<ForceIncrement>0</ForceIncrement>
+		<MagieMin>50</MagieMin>
+		<MagieMax>370</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>168</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>132</Identifiant>
+		<Nom>Lance de Kaïn</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Baisse physique</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>52325</PrixVente>
+		<ForceMin>0</ForceMin>
+		<ForceMax>0</ForceMax>
+		<ForceIncrement>0</ForceIncrement>
+		<MagieMin>50</MagieMin>
+		<MagieMax>941</MagieMax>
+		<MagieIncrement>9</MagieIncrement>
+		<ExperienceBase>4400</ExperienceBase>
+		<ExperienceIncrement>275</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>133</Identifiant>
+		<Nom>Châtiment</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Chocs techniques</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>31000</PrixAchat>
+		<PrixVente>15500</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<ForceMin>20</ForceMin>
+		<ForceMax>100</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>31</MagieMin>
+		<MagieMax>151</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>134</Identifiant>
+		<Nom>Atropos</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>8</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Chocs techniques 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>40300</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>22</ForceMin>
+		<ForceMax>222</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>38</MagieMin>
+		<MagieMax>318</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>2600</ExperienceBase>
+		<ExperienceIncrement>232</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>135</Identifiant>
+		<Nom>Lance de Kaïn</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Chocs techniques 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>70525</PrixVente>
+		<ForceMin>22</ForceMin>
+		<ForceMax>517</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>38</MagieMin>
+		<MagieMax>731</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>4400</ExperienceBase>
+		<ExperienceIncrement>275</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>136</Identifiant>
+		<Nom>Lance Pandore</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Gênes précises</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
+		<PrixAchat>16200</PrixAchat>
+		<PrixVente>8100</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<ForceMin>20</ForceMin>
+		<ForceMax>100</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>31</MagieMin>
+		<MagieMax>151</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>137</Identifiant>
+		<Nom>Calamité</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>8</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Gênes précises 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>21060</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>22</ForceMin>
+		<ForceMax>222</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>38</MagieMin>
+		<MagieMax>318</MagieMax>
+		<MagieIncrement>7</MagieIncrement>
+		<ExperienceBase>3000</ExperienceBase>
+		<ExperienceIncrement>240</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>138</Identifiant>
+		<Nom>Lance de Kaïn</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Gênes précises 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>36855</PrixVente>
+		<ForceMin>22</ForceMin>
+		<ForceMax>616</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>38</MagieMin>
+		<MagieMax>830</MagieMax>
+		<MagieIncrement>8</MagieIncrement>
+		<ExperienceBase>4400</ExperienceBase>
+		<ExperienceIncrement>275</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>139</Identifiant>
+		<Nom>Lance de Nimrod</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>4</Rang>
+		<NiveauMax>26</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>27000</PrixAchat>
+		<PrixVente>13500</PrixVente>
+		<Acquisition>Les Trésors de Gilgamesh</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<ForceMin>23</ForceMin>
+		<ForceMax>148</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>23</MagieMin>
+		<MagieMax>148</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>116</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>140</Identifiant>
+		<Nom>Evangile de Vénus</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>6</Rang>
+		<NiveauMax>61</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>35100</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>30</ForceMin>
+		<ForceMax>390</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>30</MagieMin>
+		<MagieMax>390</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>168</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>141</Identifiant>
+		<Nom>Lance de Kaïn</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Chocs impossibles</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>61425</PrixVente>
+		<ForceMin>30</ForceMin>
+		<ForceMax>921</ForceMax>
+		<ForceIncrement>9</ForceIncrement>
+		<MagieMin>30</MagieMin>
+		<MagieMax>921</MagieMax>
+		<MagieIncrement>9</MagieIncrement>
+		<ExperienceBase>4400</ExperienceBase>
+		<ExperienceIncrement>275</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>142</Identifiant>
+		<Nom>Gae Bolga</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>5</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>Ripostes améliorées</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
+		<PrixAchat>13100</PrixAchat>
+		<PrixVente>6550</PrixVente>
+		<Acquisition>Atelier Plautus</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<ForceMin>23</ForceMin>
+		<ForceMax>103</ForceMax>
+		<ForceIncrement>4</ForceIncrement>
+		<MagieMin>12</MagieMin>
+		<MagieMax>92</MagieMax>
+		<MagieIncrement>4</MagieIncrement>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>215</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>143</Identifiant>
+		<Nom>Gungnir</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>8</Rang>
+		<NiveauMax>41</NiveauMax>
+		<ProprieteSpeciale>Ripostes améliorées 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>17030</PrixVente>
+		<Catalyste>Antidiamant</Catalyste>
+		<ForceMin>30</ForceMin>
+		<ForceMax>230</ForceMax>
+		<ForceIncrement>5</ForceIncrement>
+		<MagieMin>20</MagieMin>
+		<MagieMax>220</MagieMax>
+		<MagieIncrement>5</MagieIncrement>
+		<ExperienceBase>2600</ExperienceBase>
+		<ExperienceIncrement>232</ExperienceIncrement>
+	</Arme>
+	<Arme>
+		<Identifiant>144</Identifiant>
+		<Nom>Lance de Kaïn</Nom>
+		<Personnage>Fang</Personnage>
+		<Rang>11</Rang>
+		<NiveauMax>100</NiveauMax>
+		<ProprieteSpeciale>Ripostes améliorées 2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>29802</PrixVente>
+		<ForceMin>48</ForceMin>
+		<ForceMax>642</ForceMax>
+		<ForceIncrement>6</ForceIncrement>
+		<MagieMin>48</MagieMin>
+		<MagieMax>642</MagieMax>
+		<MagieIncrement>6</MagieIncrement>
+		<ExperienceBase>4400</ExperienceBase>
+		<ExperienceIncrement>275</ExperienceIncrement>
+	</Arme>
+</Armes>

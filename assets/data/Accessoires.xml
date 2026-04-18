@@ -1,0 +1,1979 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Accessoires xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Accessoire>
+		<Identifiant>1</Identifiant>
+		<Nom>Bracelet fer</Nom>
+		<Rang>1</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>PV +50</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Santé de fer</GroupeCompetencesDerivees>
+		<PrixAchat>500</PrixAchat>
+		<PrixVente>250</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Millérite</Catalyste>
+		<Min>50</Min>
+		<Max>120</Max>
+		<Increment>14</Increment>
+		<ExperienceBase>100</ExperienceBase>
+		<ExperienceIncrement>28</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>2</Identifiant>
+		<Nom>Bracelet argent</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>PV +100</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>800</PrixAchat>
+		<PrixVente>400</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Rhodochrosite</Catalyste>
+		<Min>100</Min>
+		<Max>180</Max>
+		<Increment>16</Increment>
+		<ExperienceBase>200</ExperienceBase>
+		<ExperienceIncrement>56</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>3</Identifiant>
+		<Nom>Bracelet tungstène</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>PV +150</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Urgence</GroupeCompetencesDerivees>
+		<PrixAchat>1500</PrixAchat>
+		<PrixVente>750</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Cobaltite</Catalyste>
+		<Min>150</Min>
+		<Max>230</Max>
+		<Increment>8</Increment>
+		<ExperienceBase>330</ExperienceBase>
+		<ExperienceIncrement>99</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>4</Identifiant>
+		<Nom>Bracelet titane</Nom>
+		<Rang>4</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>PV +200</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Réduction des dégâts</GroupeCompetencesDerivees>
+		<PrixAchat>3600</PrixAchat>
+		<PrixVente>1800</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>200</Min>
+		<Max>280</Max>
+		<Increment>8</Increment>
+		<ExperienceBase>440</ExperienceBase>
+		<ExperienceIncrement>132</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>5</Identifiant>
+		<Nom>Bracelet or</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>PV +250</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>9000</PrixAchat>
+		<PrixVente>4500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>250</Min>
+		<Max>350</Max>
+		<Increment>10</Increment>
+		<ExperienceBase>550</ExperienceBase>
+		<ExperienceIncrement>165</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>6</Identifiant>
+		<Nom>Bracelet mithril</Nom>
+		<Rang>6</Rang>
+		<NiveauMax>16</NiveauMax>
+		<ProprieteSpeciale>PV +300</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Santé de fer</GroupeCompetencesDerivees>
+		<PrixAchat>15000</PrixAchat>
+		<PrixVente>7500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pierre de Mnar</Catalyste>
+		<Min>300</Min>
+		<Max>450</Max>
+		<Increment>10</Increment>
+		<ExperienceBase>720</ExperienceBase>
+		<ExperienceIncrement>228</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>7</Identifiant>
+		<Nom>Bracelet platine</Nom>
+		<Rang>7</Rang>
+		<NiveauMax>21</NiveauMax>
+		<ProprieteSpeciale>PV +400</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>48000</PrixAchat>
+		<PrixVente>24000</PrixVente>
+		<Acquisition>Institut Sanctum</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<Min>400</Min>
+		<Max>600</Max>
+		<Increment>10</Increment>
+		<ExperienceBase>910</ExperienceBase>
+		<ExperienceIncrement>301</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>8</Identifiant>
+		<Nom>Bracelet diamant</Nom>
+		<Rang>8</Rang>
+		<NiveauMax>26</NiveauMax>
+		<ProprieteSpeciale>PV +500</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>36000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Adamante</Catalyste>
+		<Min>500</Min>
+		<Max>1000</Max>
+		<Increment>20</Increment>
+		<ExperienceBase>1120</ExperienceBase>
+		<ExperienceIncrement>384</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>9</Identifiant>
+		<Nom>Bracelet adamante</Nom>
+		<Rang>9</Rang>
+		<NiveauMax>36</NiveauMax>
+		<ProprieteSpeciale>PV +800</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Réduction des dégâts</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>50000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Matière obscure</Catalyste>
+		<Min>800</Min>
+		<Max>1500</Max>
+		<Increment>20</Increment>
+		<ExperienceBase>1350</ExperienceBase>
+		<ExperienceIncrement>477</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>10</Identifiant>
+		<Nom>Bracelet wurtzite</Nom>
+		<Rang>10</Rang>
+		<NiveauMax>51</NiveauMax>
+		<ProprieteSpeciale>PV +1500</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>150000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>1500</Min>
+		<Max>3000</Max>
+		<Increment>30</Increment>
+		<ExperienceBase>1600</ExperienceBase>
+		<ExperienceIncrement>580</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>11</Identifiant>
+		<Nom>Poignet de force</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Force +20</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>1000</PrixAchat>
+		<PrixVente>500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Cobaltite</Catalyste>
+		<Min>20</Min>
+		<Max>60</Max>
+		<Increment>8</Increment>
+		<ExperienceBase>520</ExperienceBase>
+		<ExperienceIncrement>212</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>12</Identifiant>
+		<Nom>Poignet de lutteur</Nom>
+		<Rang>4</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Force +50</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>50</Min>
+		<Max>120</Max>
+		<Increment>7</Increment>
+		<ExperienceBase>1040</ExperienceBase>
+		<ExperienceIncrement>424</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>13</Identifiant>
+		<Nom>Poignet de guerrier</Nom>
+		<Rang>6</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Force +100</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>10000</PrixAchat>
+		<PrixVente>5000</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<Min>100</Min>
+		<Max>180</Max>
+		<Increment>8</Increment>
+		<ExperienceBase>1560</ExperienceBase>
+		<ExperienceIncrement>636</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>14</Identifiant>
+		<Nom>Gant de force</Nom>
+		<Rang>8</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Force +150</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>13500</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Matière obscure</Catalyste>
+		<Min>150</Min>
+		<Max>250</Max>
+		<Increment>10</Increment>
+		<ExperienceBase>2080</ExperienceBase>
+		<ExperienceIncrement>848</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>15</Identifiant>
+		<Nom>Poing de Kaiser</Nom>
+		<Rang>10</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Force +200</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Physique ultime</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>31500</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>200</Min>
+		<Max>300</Max>
+		<Increment>10</Increment>
+		<ExperienceBase>2600</ExperienceBase>
+		<ExperienceIncrement>1060</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>16</Identifiant>
+		<Nom>Marque de mage</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Magie +20</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>1000</PrixAchat>
+		<PrixVente>500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Cobaltite</Catalyste>
+		<Min>20</Min>
+		<Max>60</Max>
+		<Increment>8</Increment>
+		<ExperienceBase>520</ExperienceBase>
+		<ExperienceIncrement>212</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>17</Identifiant>
+		<Nom>Marque de shaman</Nom>
+		<Rang>4</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Magie +50</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>50</Min>
+		<Max>120</Max>
+		<Increment>7</Increment>
+		<ExperienceBase>1040</ExperienceBase>
+		<ExperienceIncrement>424</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>18</Identifiant>
+		<Nom>Marque de sorcier</Nom>
+		<Rang>6</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Magie +100</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>10000</PrixAchat>
+		<PrixVente>5000</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<Min>100</Min>
+		<Max>180</Max>
+		<Increment>8</Increment>
+		<ExperienceBase>1560</ExperienceBase>
+		<ExperienceIncrement>636</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>19</Identifiant>
+		<Nom>Rune d'enchanteur</Nom>
+		<Rang>8</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Magie +150</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>13500</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Matière obscure</Catalyste>
+		<Min>150</Min>
+		<Max>250</Max>
+		<Increment>10</Increment>
+		<ExperienceBase>2080</ExperienceBase>
+		<ExperienceIncrement>848</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>20</Identifiant>
+		<Nom>Emblème magistère</Nom>
+		<Rang>10</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Magie +200</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Magie ultime</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>31500</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>200</Min>
+		<Max>300</Max>
+		<Increment>10</Increment>
+		<ExperienceBase>2600</ExperienceBase>
+		<ExperienceIncrement>1060</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>21</Identifiant>
+		<Nom>Ceinture noire</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance physique +10%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>4500</PrixAchat>
+		<PrixVente>2250</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>10</Min>
+		<Max>20</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>480</ExperienceBase>
+		<ExperienceIncrement>198</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>22</Identifiant>
+		<Nom>Ceinture de général</Nom>
+		<Rang>6</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance physique +15%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>12000</PrixAchat>
+		<PrixVente>6000</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Adamante</Catalyste>
+		<Min>15</Min>
+		<Max>25</Max>
+		<Increment>1</Increment>
+		<ExperienceBase>960</ExperienceBase>
+		<ExperienceIncrement>396</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>23</Identifiant>
+		<Nom>Ceinture de héros</Nom>
+		<Rang>9</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance physique +20%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>18150</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>20</Min>
+		<Max>30</Max>
+		<Increment>1</Increment>
+		<ExperienceBase>1440</ExperienceBase>
+		<ExperienceIncrement>594</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>24</Identifiant>
+		<Nom>Bracelet runique</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance magique +10%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>4500</PrixAchat>
+		<PrixVente>2250</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>10</Min>
+		<Max>20</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>480</ExperienceBase>
+		<ExperienceIncrement>198</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>25</Identifiant>
+		<Nom>Bracelet de sorcier</Nom>
+		<Rang>6</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance magique +15%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>12000</PrixAchat>
+		<PrixVente>6000</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Adamante</Catalyste>
+		<Min>15</Min>
+		<Max>25</Max>
+		<Increment>1</Increment>
+		<ExperienceBase>960</ExperienceBase>
+		<ExperienceIncrement>396</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>26</Identifiant>
+		<Nom>Bracelet de magus</Nom>
+		<Rang>9</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance magique +20%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>18150</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>20</Min>
+		<Max>30</Max>
+		<Increment>1</Increment>
+		<ExperienceBase>1440</ExperienceBase>
+		<ExperienceIncrement>594</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>27</Identifiant>
+		<Nom>Gantelet royal</Nom>
+		<Rang>8</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance physique et magique +5%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>200000</PrixAchat>
+		<PrixVente>20000</PrixVente>
+		<Acquisition>Institut Sanctum</Acquisition>
+		<Catalyste>Matière obscure</Catalyste>
+		<Min>5</Min>
+		<Max>15</Max>
+		<Increment>1</Increment>
+		<ExperienceBase>1000</ExperienceBase>
+		<ExperienceIncrement>264</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>28</Identifiant>
+		<Nom>Gantelet impérial</Nom>
+		<Rang>10</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance physique et magique +10%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>50000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>10</Min>
+		<Max>20</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>330</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>29</Identifiant>
+		<Nom>Bague ardente</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Feu +20%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Feu</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>1000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Cobaltite</Catalyste>
+		<Min>20</Min>
+		<Max>30</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>200</ExperienceBase>
+		<ExperienceIncrement>26</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>30</Identifiant>
+		<Nom>Bague du feu</Nom>
+		<Rang>4</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Feu +25%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Feu</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>3000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>25</Min>
+		<Max>35</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>500</ExperienceBase>
+		<ExperienceIncrement>112</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>31</Identifiant>
+		<Nom>Bague Salamandre</Nom>
+		<Rang>6</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Feu +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Feu</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>5000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>30</Min>
+		<Max>40</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>900</ExperienceBase>
+		<ExperienceIncrement>198</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>32</Identifiant>
+		<Nom>Bague glaciale</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Glace +20%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Glace</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>1000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Cobaltite</Catalyste>
+		<Min>20</Min>
+		<Max>30</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>200</ExperienceBase>
+		<ExperienceIncrement>26</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>33</Identifiant>
+		<Nom>Bague de la glace</Nom>
+		<Rang>4</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Glace +25%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Glace</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>3000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>25</Min>
+		<Max>35</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>500</ExperienceBase>
+		<ExperienceIncrement>112</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>34</Identifiant>
+		<Nom>Bague Celsius</Nom>
+		<Rang>6</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Glace +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Glace</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>5000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>30</Min>
+		<Max>40</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>900</ExperienceBase>
+		<ExperienceIncrement>198</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>35</Identifiant>
+		<Nom>Bague étincelante</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Foudre +20%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Foudre</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>1000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Cobaltite</Catalyste>
+		<Min>20</Min>
+		<Max>30</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>200</ExperienceBase>
+		<ExperienceIncrement>26</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>36</Identifiant>
+		<Nom>Bague de la foudre</Nom>
+		<Rang>4</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Foudre +25%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Foudre</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>3000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>25</Min>
+		<Max>35</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>500</ExperienceBase>
+		<ExperienceIncrement>112</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>37</Identifiant>
+		<Nom>Bague Marutah</Nom>
+		<Rang>6</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Foudre +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Foudre</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>5000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>30</Min>
+		<Max>40</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>900</ExperienceBase>
+		<ExperienceIncrement>198</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>38</Identifiant>
+		<Nom>Bague aquatique</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Eau +20%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Eau</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>1000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Cobaltite</Catalyste>
+		<Min>20</Min>
+		<Max>30</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>200</ExperienceBase>
+		<ExperienceIncrement>26</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>39</Identifiant>
+		<Nom>Bague de l'eau</Nom>
+		<Rang>4</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Eau +25%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Eau</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>3000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>25</Min>
+		<Max>35</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>500</ExperienceBase>
+		<ExperienceIncrement>112</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>40</Identifiant>
+		<Nom>Bague Ondine</Nom>
+		<Rang>6</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Eau +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Eau</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>5000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>30</Min>
+		<Max>40</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>900</ExperienceBase>
+		<ExperienceIncrement>198</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>41</Identifiant>
+		<Nom>Bague zéphyr</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Air +20%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Air</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>1000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Cobaltite</Catalyste>
+		<Min>20</Min>
+		<Max>30</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>200</ExperienceBase>
+		<ExperienceIncrement>26</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>42</Identifiant>
+		<Nom>Bague de l'air</Nom>
+		<Rang>4</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Air +25%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Air</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>3000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>25</Min>
+		<Max>35</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>500</ExperienceBase>
+		<ExperienceIncrement>112</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>43</Identifiant>
+		<Nom>Bague Sylphe</Nom>
+		<Rang>6</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Air +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Air</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>5000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>30</Min>
+		<Max>40</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>900</ExperienceBase>
+		<ExperienceIncrement>198</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>44</Identifiant>
+		<Nom>Bague d'argile</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Terre +20%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Terre</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>1000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Cobaltite</Catalyste>
+		<Min>20</Min>
+		<Max>30</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>200</ExperienceBase>
+		<ExperienceIncrement>26</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>45</Identifiant>
+		<Nom>Bague de la terre</Nom>
+		<Rang>4</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Terre +25%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Terre</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>3000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>25</Min>
+		<Max>35</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>500</ExperienceBase>
+		<ExperienceIncrement>112</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>46</Identifiant>
+		<Nom>Bague Gaïa</Nom>
+		<Rang>6</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Terre +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Terre</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>5000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>30</Min>
+		<Max>40</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>900</ExperienceBase>
+		<ExperienceIncrement>198</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>47</Identifiant>
+		<Nom>Gant de géant</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Faiblesse +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Faiblesse réduite</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>30</Min>
+		<Max>45</Max>
+		<Increment>3</Increment>
+		<ExperienceBase>450</ExperienceBase>
+		<ExperienceIncrement>114</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>48</Identifiant>
+		<Nom>Gant de général</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance Faiblesse +40%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Faiblesse réduite</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>40</Min>
+		<Max>60</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>760</ExperienceBase>
+		<ExperienceIncrement>195</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>49</Identifiant>
+		<Nom>Fermoir de verre</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Débilité +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Débilité réduite</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>30</Min>
+		<Max>45</Max>
+		<Increment>3</Increment>
+		<ExperienceBase>450</ExperienceBase>
+		<ExperienceIncrement>114</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>50</Identifiant>
+		<Nom>Fermoir de tectite</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance Débilité +40%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Débilité réduite</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>40</Min>
+		<Max>60</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>760</ExperienceBase>
+		<ExperienceIncrement>195</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>51</Identifiant>
+		<Nom>Brassard métallique</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Fragilité +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Fragilité réduite</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>30</Min>
+		<Max>45</Max>
+		<Increment>3</Increment>
+		<ExperienceBase>450</ExperienceBase>
+		<ExperienceIncrement>114</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>52</Identifiant>
+		<Nom>Brassard céramique</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance Fragilité +40%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Fragilité réduite</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>40</Min>
+		<Max>60</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>760</ExperienceBase>
+		<ExperienceIncrement>195</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>53</Identifiant>
+		<Nom>Sceau de sérénité</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Défaillance +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défaillance réduite</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>30</Min>
+		<Max>45</Max>
+		<Increment>3</Increment>
+		<ExperienceBase>450</ExperienceBase>
+		<ExperienceIncrement>114</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>54</Identifiant>
+		<Nom>Sceau d'allégresse</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance Défaillance +40%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défaillance réduite</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>40</Min>
+		<Max>60</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>760</ExperienceBase>
+		<ExperienceIncrement>195</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>55</Identifiant>
+		<Nom>Bille de verre</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Lenteur +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Lenteur réduite</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>30</Min>
+		<Max>45</Max>
+		<Increment>3</Increment>
+		<ExperienceBase>450</ExperienceBase>
+		<ExperienceIncrement>114</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>56</Identifiant>
+		<Nom>Perle nacrée</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance Lenteur +40%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Lenteur réduite</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>40</Min>
+		<Max>60</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>760</ExperienceBase>
+		<ExperienceIncrement>195</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>57</Identifiant>
+		<Nom>Pendentif étoilé</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Poison +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Poison réduit</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>30</Min>
+		<Max>45</Max>
+		<Increment>3</Increment>
+		<ExperienceBase>450</ExperienceBase>
+		<ExperienceIncrement>114</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>58</Identifiant>
+		<Nom>Pendentif comète</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance Poison +40%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Poison réduit</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>40</Min>
+		<Max>60</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>760</ExperienceBase>
+		<ExperienceIncrement>195</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>59</Identifiant>
+		<Nom>Collier de perles</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Vulnérabilité +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Vulnérabilité réduite</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>30</Min>
+		<Max>45</Max>
+		<Increment>3</Increment>
+		<ExperienceBase>450</ExperienceBase>
+		<ExperienceIncrement>114</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>60</Identifiant>
+		<Nom>Collier de gemmes</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance Vulnérabilité +40%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Vulnérabilité réduite</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>40</Min>
+		<Max>60</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>760</ExperienceBase>
+		<ExperienceIncrement>195</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>61</Identifiant>
+		<Nom>Talisman enchanté</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Malédiction +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Malédiction réduite</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>30</Min>
+		<Max>45</Max>
+		<Increment>3</Increment>
+		<ExperienceBase>450</ExperienceBase>
+		<ExperienceIncrement>114</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>62</Identifiant>
+		<Nom>Talisman magique</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance Malédiction +40%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Malédiction réduite</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>40</Min>
+		<Max>60</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>760</ExperienceBase>
+		<ExperienceIncrement>195</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>63</Identifiant>
+		<Nom>Résine antalgique</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Supplice +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Supplice réduite</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>30</Min>
+		<Max>45</Max>
+		<Increment>3</Increment>
+		<ExperienceBase>450</ExperienceBase>
+		<ExperienceIncrement>114</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>64</Identifiant>
+		<Nom>Résine analgésique</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance Supplice +40%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Supplice réduite</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>40</Min>
+		<Max>60</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>760</ExperienceBase>
+		<ExperienceIncrement>195</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>65</Identifiant>
+		<Nom>Cape blanche</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Oubli +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Oubli réduit</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>30</Min>
+		<Max>45</Max>
+		<Increment>3</Increment>
+		<ExperienceBase>450</ExperienceBase>
+		<ExperienceIncrement>114</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>66</Identifiant>
+		<Nom>Cape radieuse</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance Oubli +40%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Oubli réduit</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>40</Min>
+		<Max>60</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>760</ExperienceBase>
+		<ExperienceIncrement>195</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>67</Identifiant>
+		<Nom>Chevillère irisée</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Stase +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Stase réduite</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>30</Min>
+		<Max>45</Max>
+		<Increment>3</Increment>
+		<ExperienceBase>450</ExperienceBase>
+		<ExperienceIncrement>114</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>68</Identifiant>
+		<Nom>Chevillère nacrée</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance Stase +40%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Stase réduite</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>40</Min>
+		<Max>60</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>760</ExperienceBase>
+		<ExperienceIncrement>195</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>69</Identifiant>
+		<Nom>Couronne chérubin</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance Mort +30%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Le Bourlingueur</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>30</Min>
+		<Max>45</Max>
+		<Increment>3</Increment>
+		<ExperienceBase>450</ExperienceBase>
+		<ExperienceIncrement>114</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>70</Identifiant>
+		<Nom>Couronne séraphin</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>11</NiveauMax>
+		<ProprieteSpeciale>Résistance Mort +40%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>40</Min>
+		<Max>60</Max>
+		<Increment>2</Increment>
+		<ExperienceBase>760</ExperienceBase>
+		<ExperienceIncrement>195</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>71</Identifiant>
+		<Nom>Amulette égide</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>SOS Bouclier</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>5000</PrixAchat>
+		<PrixVente>2500</PrixVente>
+		<Acquisition>Brin de Magie</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>600</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>72</Identifiant>
+		<Nom>Talisman égide</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Auto-Bouclier</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>73</Identifiant>
+		<Nom>Amulette spirituelle</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>SOS Barrière</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>5000</PrixAchat>
+		<PrixVente>2500</PrixVente>
+		<Acquisition>Brin de Magie</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>600</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>74</Identifiant>
+		<Nom>Talisman spirituel</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Auto-Barrière</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>75</Identifiant>
+		<Nom>Amulette gardienne</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>SOS Voile</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
+		<PrixAchat>5000</PrixAchat>
+		<PrixVente>2500</PrixVente>
+		<Acquisition>Brin de Magie</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>600</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>76</Identifiant>
+		<Nom>Talisman gardien</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Auto-Voile</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Soutien accru</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>77</Identifiant>
+		<Nom>Amulette de héros</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>SOS Bravoure</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>5000</PrixAchat>
+		<PrixVente>2500</PrixVente>
+		<Acquisition>Brin de Magie</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>600</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>78</Identifiant>
+		<Nom>Talisman de héros</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Auto-Bravoure</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense physique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>79</Identifiant>
+		<Nom>Amulette de magus</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>SOS Foi</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>5000</PrixAchat>
+		<PrixVente>2500</PrixVente>
+		<Acquisition>Brin de Magie</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>600</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>80</Identifiant>
+		<Nom>Talisman de magus</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Auto-Foi</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Défense magique</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>81</Identifiant>
+		<Nom>Amulette d'ardeur</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>SOS Volonté</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
+		<PrixAchat>5000</PrixAchat>
+		<PrixVente>2500</PrixVente>
+		<Acquisition>Brin de Magie</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>600</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>82</Identifiant>
+		<Nom>Talisman de guerrier</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Auto-Volonté</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Vampirisme</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>83</Identifiant>
+		<Nom>Boucle pyrofuge</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>SOS Anti-Feu</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Feu</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Brin de Magie</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>600</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>84</Identifiant>
+		<Nom>Anneau pyrofuge</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Auto-Anti-Feu</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Feu</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>85</Identifiant>
+		<Nom>Boucle cryofuge</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>SOS Anti-Glace</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Glace</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Brin de Magie</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>600</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>86</Identifiant>
+		<Nom>Anneau cryofuge</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Auto-Anti-Glace</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Glace</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>87</Identifiant>
+		<Nom>Boucle électrofuge</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>SOS Anti-Foudre</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Foudre</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Brin de Magie</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>600</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>88</Identifiant>
+		<Nom>Anneau électrofuge</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Auto-Anti-Foudre</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Foudre</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>89</Identifiant>
+		<Nom>Boucle hydrofuge</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>SOS Anti-Eau</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Eau</GroupeCompetencesDerivees>
+		<PrixAchat>3000</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition>Brin de Magie</Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>600</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>90</Identifiant>
+		<Nom>Anneau hydrofuge</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Auto-Anti-Eau</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Eau</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>4000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>91</Identifiant>
+		<Nom>Sandales ailées</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>SOS Célérité</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>2500</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Pérovskite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>600</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>92</Identifiant>
+		<Nom>Sandale d'Hermès</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Auto-Célérité</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>6000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1500</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>93</Identifiant>
+		<Nom>Couronne carrée</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>SOS Tétradéfense</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>15000</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Scarlatium</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1000</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>94</Identifiant>
+		<Nom>Tiare carrée</Nom>
+		<Rang>8</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Auto-Tétradéfense</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>40000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>2000</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>95</Identifiant>
+		<Nom>Foulard siffle-vent</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Segment ATB initial</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
+		<PrixAchat>1000</PrixAchat>
+		<PrixVente>500</PrixVente>
+		<Acquisition>Mogs en Stock</Acquisition>
+		<Catalyste>Rhodochrosite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>350</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>96</Identifiant>
+		<Nom>Foulard vif-éclair</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Jauge ATB initiale</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>1500</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Cobaltite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>525</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>97</Identifiant>
+		<Nom>Bottes d'agilité</Nom>
+		<Rang>4</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Esquive améliorée</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Accélération</GroupeCompetencesDerivees>
+		<PrixAchat>6000</PrixAchat>
+		<PrixVente>3000</PrixVente>
+		<Acquisition>Mogs en Stock</Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>700</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>98</Identifiant>
+		<Nom>Montre en or</Nom>
+		<Rang>3</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Objectifs aisés</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>10000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>875</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>99</Identifiant>
+		<Nom>Médaille d'or</Nom>
+		<Rang>4</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Victoire technique</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>5000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1050</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>100</Identifiant>
+		<Nom>Trèfle de jade</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Pro-vaporisateurs</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>3500</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1225</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>101</Identifiant>
+		<Nom>Trèfle d'argent</Nom>
+		<Rang>4</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Aubaine</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>100000</PrixAchat>
+		<PrixVente>50000</PrixVente>
+		<Acquisition>Mogs en Stock</Acquisition>
+		<Catalyste>Pierre de Mnar</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1050</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>102</Identifiant>
+		<Nom>Trèfle d'or</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Aubaine rare</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>125000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1225</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>103</Identifiant>
+		<Nom>Guide de chasse</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Acuité du chasseur</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>2500</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1225</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>104</Identifiant>
+		<Nom>Ceinturon vivifiant</Nom>
+		<Rang>6</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>ATB du chasseur</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>10000</PrixAchat>
+		<PrixVente>5000</PrixVente>
+		<Acquisition>Mogs en Stock</Acquisition>
+		<Catalyste>Pierre de Mnar</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>200</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>105</Identifiant>
+		<Nom>Ceinturon stimulant</Nom>
+		<Rang>7</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>PT du chasseur</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Jauges</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>75000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>525</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>106</Identifiant>
+		<Nom>Code de médecine</Nom>
+		<Rang>2</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Potions améliorées</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>2500</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>700</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>107</Identifiant>
+		<Nom>Charme de feu</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Pyro-absorption fortuite</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Feu</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>7500</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Pierre de Mnar</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>750</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>108</Identifiant>
+		<Nom>Charme de glace</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Cryo-absorption fortuite</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Glace</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>7500</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Pierre de Mnar</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>750</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>109</Identifiant>
+		<Nom>Charme de foudre</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Electro-absorption fortuite</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Foudre</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>7500</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Pierre de Mnar</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>750</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>110</Identifiant>
+		<Nom>Charme d'eau</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Aqua-absorption fortuite</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Eau</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>7500</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Pierre de Mnar</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>750</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>111</Identifiant>
+		<Nom>Charme d'air</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Aéro-absorption fortuite</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Air</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>7500</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Pierre de Mnar</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>750</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>112</Identifiant>
+		<Nom>Charme de terre</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Géo-absorption fortuite</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Puissance Terre</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>7500</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Pierre de Mnar</Catalyste>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>750</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>113</Identifiant>
+		<Nom>Dé à vingt faces</Nom>
+		<Rang>7</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Invulnérabilité fortuite</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>22500</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1050</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>114</Identifiant>
+		<Nom>Œuf de croissance</Nom>
+		<Rang>8</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>PC *2</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>250000</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>7000</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>115</Identifiant>
+		<Nom>Bague des esprits</Nom>
+		<Rang>5</Rang>
+		<NiveauMax>16</NiveauMax>
+		<ProprieteSpeciale>Résistance 6 éléments +10%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>120000</PrixAchat>
+		<PrixVente>60000</PrixVente>
+		<Acquisition>Institut Sanctum</Acquisition>
+		<Catalyste>Uraninite</Catalyste>
+		<Min>10</Min>
+		<Max>25</Max>
+		<Increment>1</Increment>
+		<ExperienceBase>800</ExperienceBase>
+		<ExperienceIncrement>185</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>116</Identifiant>
+		<Nom>Faveur divine</Nom>
+		<Rang>6</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Récupération rapide</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>10</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>1800</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>117</Identifiant>
+		<Nom>Ruban</Nom>
+		<Rang>9</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance altérations +20%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>10</PrixVente>
+		<Acquisition></Acquisition>
+		<Catalyste>Matière obscure</Catalyste>
+		<Min>20</Min>
+		<Max>25</Max>
+		<Increment>1</Increment>
+		<ExperienceBase>2520</ExperienceBase>
+		<ExperienceIncrement>783</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>118</Identifiant>
+		<Nom>Ruban raffiné</Nom>
+		<Rang>10</Rang>
+		<NiveauMax>6</NiveauMax>
+		<ProprieteSpeciale>Résistance altérations +25%</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>10</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>25</Min>
+		<Max>30</Max>
+		<Increment>1</Increment>
+		<ExperienceBase>5000</ExperienceBase>
+		<ExperienceIncrement>1530</ExperienceIncrement>
+	</Accessoire>
+	<Accessoire>
+		<Identifiant>119</Identifiant>
+		<Nom>Gant Genji</Nom>
+		<Rang>9</Rang>
+		<NiveauMax>2</NiveauMax>
+		<ProprieteSpeciale>Dégâts transcendés</ProprieteSpeciale>
+		<GroupeCompetencesDerivees>Hors catégorie</GroupeCompetencesDerivees>
+		<PrixAchat>0</PrixAchat>
+		<PrixVente>10</PrixVente>
+		<Acquisition></Acquisition>
+		<Min>0</Min>
+		<Max>0</Max>
+		<Increment>0</Increment>
+		<ExperienceBase>11250</ExperienceBase>
+		<ExperienceIncrement>0</ExperienceIncrement>
+	</Accessoire>
+</Accessoires>
