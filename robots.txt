@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nikaal.github.io/ffxiii-experience-calculator/sitemap.xml
