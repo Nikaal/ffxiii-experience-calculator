@@ -124,6 +124,7 @@
         }
 
         @if (resultatCalcul$ | async; as resultat) {
+                @if (resultat) {
         <div class="result-panel">
 
                 <h2>Résultat</h2>
@@ -131,22 +132,22 @@
                 <p>Expérience nécessaire pour passer du niveau {{ niveauActuel }} à {{ niveauCible }} : {{
                         resultat.xpNecessaire }}</p>
 
+                @if (resultat!.multiplicateurNombre > 0) {
                 <p>
-                        Bonus x3 : {{ resultat.multiplicateurNombre }} {{ resultat.multiplicateurMateriau }} - coût : {{
+                        Bonus x3 : {{ resultat.multiplicateurMateriau }} x{{ resultat.multiplicateurNombre }} - coût : {{
                         resultat.multiplicateurCout }} gils - expérience : {{ resultat.multiplicateurXp}}
                 </p>
-
+                }
                 <p>
-                        Matériau optimal : {{ resultat.materiauNombre }} {{ resultat.materiauOptimal }} - coût : {{
+                        Matériau optimal : {{ resultat.materiauOptimal }} x{{ resultat.materiauNombre }} - coût : {{
                         resultat.materiauCout }} gils
                 </p>
 
                 <p>
                         <strong>Coût total : {{ resultat.coutTotal }} gils</strong>
                 </p>
-
         </div>
         }
-
+}
 </div>
 </div>

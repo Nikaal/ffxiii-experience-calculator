@@ -123,9 +123,10 @@ export class CalculatorService {
     xpTotal: number,
     materiaux: MateriauModel[],
     rang: number,
+    avecBonus: boolean
   ): MateriauOptimise {
     // On commence par définir le bonus multiplicateur (×3 minimal)
-    const bonus = 3;
+    let bonus = avecBonus ? 3 : 1;
 
     // Maintenant on cherche le matériau le plus rentable prix/XP
     let meilleur: MateriauOptimise | null = null;

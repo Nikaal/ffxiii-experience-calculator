@@ -6,18 +6,18 @@ import { ArmeModel } from '../../models/arme.model';
 import { MateriauModel } from '../../models/materiau.model';
 import { AccessoireModel } from '../../models/accessoire.model';
 import { DataService } from '../../services/data.service';
-import { BehaviorSubject, combineLatest, map, Observable, shareReplay } from 'rxjs';
+import { BehaviorSubject, combineLatest, filter, map, Observable, shareReplay } from 'rxjs';
 
 interface CalculResultat {
   xpNecessaire: number;
-  multiplicateurMateriau?: string;
-  multiplicateurNombre?: number;
-  multiplicateurCout?: number;
-  multiplicateurXp?: number;
-  materiauOptimal?: string;
-  materiauNombre?: number;
-  materiauCout?: number;
-  coutTotal?: number;
+  multiplicateurMateriau: string;
+  multiplicateurNombre: number;
+  multiplicateurCout: number;
+  multiplicateurXp: number;
+  materiauOptimal: string;
+  materiauNombre: number;
+  materiauCout: number;
+  coutTotal: number;
 }
 
 @Component({
@@ -102,27 +102,54 @@ export class CalculatorComponent {
 
         const bonus = this.calculatorService.getMateriauPourBonusMax(data.materiaux, equipement.rang);
 
-        const materiau = this.calculatorService.calculerMateriauOptimal(
+        const materiauSansBonus = this.calculatorService.calculerMateriauOptimal(
           xp,
           this.materiaux,
           equipement.rang,
+          false
         );
 
-        return {
-          xpNecessaire: xp,
+        const materiauAvecBonus = this.calculatorService.calculerMateriauOptimal(
+          xp,
+          this.materiaux,
+          equipement.rang,
+          true
+        );
+        
+        if (materiauSansBonus.cout <= materiauAvecBonus.cout + bonus.cout) {
+          return {
+            xpNecessaire: xp,
 
-          multiplicateurMateriau: bonus.materiau.nom,
-          multiplicateurNombre: bonus.nombre,
-          multiplicateurCout: bonus.cout,
-          multiplicateurXp: bonus.xp,
+            multiplicateurMateriau: '',
+            multiplicateurNombre: 0,
+            multiplicateurCout: 0,
+            multiplicateurXp: 0,
 
-          materiauOptimal: materiau.materiau.nom,
-          materiauNombre: materiau.nombre,
-          materiauCout: materiau.cout,
+            materiauOptimal: materiauSansBonus.materiau.nom,
+            materiauNombre: materiauSansBonus.nombre,
+            materiauCout: materiauSansBonus.cout,
+            
+            coutTotal: materiauSansBonus.cout,
+          };
+        }
+        else {
+          return {
+            xpNecessaire: xp,
 
-          coutTotal: bonus.cout + materiau.cout,
-        };
+            multiplicateurMateriau: bonus.materiau.nom,
+            multiplicateurNombre: bonus.nombre,
+            multiplicateurCout: bonus.cout,
+            multiplicateurXp: bonus.xp,
+            
+            materiauOptimal: materiauAvecBonus.materiau.nom,
+            materiauNombre: materiauAvecBonus.nombre,
+            materiauCout: materiauAvecBonus.cout,
+
+            coutTotal: bonus.cout + materiauAvecBonus.cout,
+          };
+        }
       }),
+      //filter((r): r is CalculResultat => r !== null)
     );
   }
 
